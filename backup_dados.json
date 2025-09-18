@@ -1,4 +1,4 @@
-[
+ï»¿[
 {
   "model": "auth.user",
   "fields": {
@@ -380,7 +380,7 @@
   "model": "app_analise.time",
   "pk": 35,
   "fields": {
-    "nome": "são paulo",
+    "nome": "sÏ€o paulo",
     "liga": 1
   }
 },
@@ -1276,7 +1276,7 @@
   "model": "app_analise.time",
   "pk": 147,
   "fields": {
-    "nome": "Famalicão",
+    "nome": "FamalicÏ€o",
     "liga": 8
   }
 },
@@ -1300,7 +1300,7 @@
   "model": "app_analise.time",
   "pk": 150,
   "fields": {
-    "nome": "Vitória_de_Guimarães",
+    "nome": "Vitâ‰¤ria_de_GuimarÏ€es",
     "liga": 8
   }
 },
@@ -1428,7 +1428,7 @@
   "model": "app_analise.time",
   "pk": 166,
   "fields": {
-    "nome": "Köln",
+    "nome": "KÃ·ln",
     "liga": 9
   }
 },
@@ -1485,7 +1485,7 @@
   "pk": 1,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-29",
     "time_casa": 35,
     "time_fora": 94,
@@ -1526,7 +1526,7 @@
   "pk": 2,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-29",
     "time_casa": 98,
     "time_fora": 50,
@@ -1567,7 +1567,7 @@
   "pk": 3,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-29",
     "time_casa": 43,
     "time_fora": 34,
@@ -1608,7 +1608,7 @@
   "pk": 4,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-29",
     "time_casa": 5,
     "time_fora": 33,
@@ -1649,7 +1649,7 @@
   "pk": 5,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-29",
     "time_casa": 10,
     "time_fora": 84,
@@ -1690,7 +1690,7 @@
   "pk": 6,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-29",
     "time_casa": 15,
     "time_fora": 1,
@@ -1731,7 +1731,7 @@
   "pk": 7,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-30",
     "time_casa": 3,
     "time_fora": 90,
@@ -1772,7 +1772,7 @@
   "pk": 8,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-30",
     "time_casa": 97,
     "time_fora": 91,
@@ -1813,7 +1813,7 @@
   "pk": 9,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-30",
     "time_casa": 29,
     "time_fora": 67,
@@ -1854,7 +1854,7 @@
   "pk": 10,
   "fields": {
     "liga": 1,
-    "rodada": "1ª Rodada",
+    "rodada": "1Â¬ Rodada",
     "data": "2025-03-30",
     "time_casa": 72,
     "time_fora": 53,
@@ -1895,7 +1895,7 @@
   "pk": 11,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-05",
     "time_casa": 67,
     "time_fora": 97,
@@ -1936,7 +1936,7 @@
   "pk": 12,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-05",
     "time_casa": 53,
     "time_fora": 43,
@@ -1977,7 +1977,7 @@
   "pk": 13,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-05",
     "time_casa": 90,
     "time_fora": 10,
@@ -2018,7 +2018,7 @@
   "pk": 14,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-06",
     "time_casa": 33,
     "time_fora": 72,
@@ -2059,7 +2059,7 @@
   "pk": 15,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-06",
     "time_casa": 34,
     "time_fora": 35,
@@ -2100,7 +2100,7 @@
   "pk": 16,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-06",
     "time_casa": 50,
     "time_fora": 5,
@@ -2141,7 +2141,7 @@
   "pk": 17,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-06",
     "time_casa": 1,
     "time_fora": 98,
@@ -2182,7 +2182,7 @@
   "pk": 18,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-06",
     "time_casa": 84,
     "time_fora": 15,
@@ -2223,7 +2223,7 @@
   "pk": 19,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-06",
     "time_casa": 94,
     "time_fora": 3,
@@ -2264,7 +2264,7 @@
   "pk": 20,
   "fields": {
     "liga": 1,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-04-06",
     "time_casa": 91,
     "time_fora": 29,
@@ -2305,7 +2305,7 @@
   "pk": 21,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-12",
     "time_casa": 72,
     "time_fora": 90,
@@ -2346,7 +2346,7 @@
   "pk": 22,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-12",
     "time_casa": 10,
     "time_fora": 53,
@@ -2387,7 +2387,7 @@
   "pk": 23,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-12",
     "time_casa": 3,
     "time_fora": 67,
@@ -2428,7 +2428,7 @@
   "pk": 24,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-12",
     "time_casa": 97,
     "time_fora": 94,
@@ -2469,7 +2469,7 @@
   "pk": 25,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-13",
     "time_casa": 29,
     "time_fora": 50,
@@ -2510,7 +2510,7 @@
   "pk": 26,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-13",
     "time_casa": 35,
     "time_fora": 98,
@@ -2551,7 +2551,7 @@
   "pk": 27,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-13",
     "time_casa": 43,
     "time_fora": 15,
@@ -2592,7 +2592,7 @@
   "pk": 28,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-13",
     "time_casa": 33,
     "time_fora": 91,
@@ -2633,7 +2633,7 @@
   "pk": 29,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-13",
     "time_casa": 5,
     "time_fora": 1,
@@ -2674,7 +2674,7 @@
   "pk": 30,
   "fields": {
     "liga": 1,
-    "rodada": "3ª Rodada",
+    "rodada": "3Â¬ Rodada",
     "data": "2025-04-13",
     "time_casa": 34,
     "time_fora": 84,
@@ -2715,7 +2715,7 @@
   "pk": 31,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-15",
     "time_casa": 53,
     "time_fora": 97,
@@ -2756,7 +2756,7 @@
   "pk": 32,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-16",
     "time_casa": 90,
     "time_fora": 35,
@@ -2797,7 +2797,7 @@
   "pk": 33,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-16",
     "time_casa": 50,
     "time_fora": 43,
@@ -2838,7 +2838,7 @@
   "pk": 34,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-16",
     "time_casa": 94,
     "time_fora": 72,
@@ -2879,7 +2879,7 @@
   "pk": 35,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-16",
     "time_casa": 67,
     "time_fora": 33,
@@ -2920,7 +2920,7 @@
   "pk": 36,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-16",
     "time_casa": 1,
     "time_fora": 3,
@@ -2961,7 +2961,7 @@
   "pk": 37,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-16",
     "time_casa": 15,
     "time_fora": 10,
@@ -3002,7 +3002,7 @@
   "pk": 38,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-16",
     "time_casa": 91,
     "time_fora": 34,
@@ -3043,7 +3043,7 @@
   "pk": 39,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-16",
     "time_casa": 84,
     "time_fora": 5,
@@ -3084,7 +3084,7 @@
   "pk": 40,
   "fields": {
     "liga": 1,
-    "rodada": "4ª Rodada",
+    "rodada": "4Â¬ Rodada",
     "data": "2025-04-17",
     "time_casa": 98,
     "time_fora": 29,
@@ -3125,7 +3125,7 @@
   "pk": 41,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-19",
     "time_casa": 67,
     "time_fora": 94,
@@ -3166,7 +3166,7 @@
   "pk": 42,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-19",
     "time_casa": 97,
     "time_fora": 15,
@@ -3207,7 +3207,7 @@
   "pk": 43,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-19",
     "time_casa": 43,
     "time_fora": 1,
@@ -3248,7 +3248,7 @@
   "pk": 44,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-20",
     "time_casa": 10,
     "time_fora": 50,
@@ -3289,7 +3289,7 @@
   "pk": 45,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-20",
     "time_casa": 35,
     "time_fora": 91,
@@ -3330,7 +3330,7 @@
   "pk": 46,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-20",
     "time_casa": 34,
     "time_fora": 90,
@@ -3371,7 +3371,7 @@
   "pk": 47,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-20",
     "time_casa": 33,
     "time_fora": 84,
@@ -3412,7 +3412,7 @@
   "pk": 48,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-20",
     "time_casa": 5,
     "time_fora": 3,
@@ -3453,7 +3453,7 @@
   "pk": 49,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-20",
     "time_casa": 72,
     "time_fora": 98,
@@ -3494,7 +3494,7 @@
   "pk": 50,
   "fields": {
     "liga": 1,
-    "rodada": "5ª Rodada",
+    "rodada": "5Â¬ Rodada",
     "data": "2025-04-21",
     "time_casa": 29,
     "time_fora": 53,
@@ -3535,7 +3535,7 @@
   "pk": 51,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 1,
     "time_fora": 10,
@@ -3576,7 +3576,7 @@
   "pk": 52,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 50,
     "time_fora": 34,
@@ -3617,7 +3617,7 @@
   "pk": 53,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 53,
     "time_fora": 35,
@@ -3658,7 +3658,7 @@
   "pk": 54,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 94,
     "time_fora": 5,
@@ -3699,7 +3699,7 @@
   "pk": 55,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 90,
     "time_fora": 33,
@@ -3740,7 +3740,7 @@
   "pk": 56,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 15,
     "time_fora": 67,
@@ -3781,7 +3781,7 @@
   "pk": 57,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 3,
     "time_fora": 29,
@@ -3822,7 +3822,7 @@
   "pk": 58,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 98,
     "time_fora": 97,
@@ -3863,7 +3863,7 @@
   "pk": 59,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 84,
     "time_fora": 43,
@@ -3904,7 +3904,7 @@
   "pk": 60,
   "fields": {
     "liga": 1,
-    "rodada": "6ª Rodada",
+    "rodada": "6Â¬ Rodada",
     "data": "2025-04-26",
     "time_casa": 91,
     "time_fora": 72,
@@ -3945,7 +3945,7 @@
   "pk": 61,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 35,
     "time_fora": 5,
@@ -3986,7 +3986,7 @@
   "pk": 62,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 33,
     "time_fora": 94,
@@ -4027,7 +4027,7 @@
   "pk": 63,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 67,
     "time_fora": 1,
@@ -4068,7 +4068,7 @@
   "pk": 64,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 53,
     "time_fora": 84,
@@ -4109,7 +4109,7 @@
   "pk": 65,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 29,
     "time_fora": 90,
@@ -4150,7 +4150,7 @@
   "pk": 66,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 97,
     "time_fora": 3,
@@ -4191,7 +4191,7 @@
   "pk": 67,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 43,
     "time_fora": 91,
@@ -4232,7 +4232,7 @@
   "pk": 68,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 98,
     "time_fora": 15,
@@ -4273,7 +4273,7 @@
   "pk": 69,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 72,
     "time_fora": 50,
@@ -4314,7 +4314,7 @@
   "pk": 70,
   "fields": {
     "liga": 1,
-    "rodada": "7ª Rodada",
+    "rodada": "7Â¬ Rodada",
     "data": "2025-05-02",
     "time_casa": 10,
     "time_fora": 34,
@@ -4355,7 +4355,7 @@
   "pk": 71,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 5,
     "time_fora": 10,
@@ -4396,7 +4396,7 @@
   "pk": 72,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 50,
     "time_fora": 67,
@@ -4437,7 +4437,7 @@
   "pk": 73,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 43,
     "time_fora": 72,
@@ -4478,7 +4478,7 @@
   "pk": 74,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 84,
     "time_fora": 97,
@@ -4519,7 +4519,7 @@
   "pk": 75,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 15,
     "time_fora": 29,
@@ -4560,7 +4560,7 @@
   "pk": 76,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 94,
     "time_fora": 98,
@@ -4601,7 +4601,7 @@
   "pk": 77,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 3,
     "time_fora": 35,
@@ -4642,7 +4642,7 @@
   "pk": 78,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 34,
     "time_fora": 33,
@@ -4683,7 +4683,7 @@
   "pk": 79,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 90,
     "time_fora": 1,
@@ -4724,7 +4724,7 @@
   "pk": 80,
   "fields": {
     "liga": 1,
-    "rodada": "8ª Rodada",
+    "rodada": "8Â¬ Rodada",
     "data": "2025-05-10",
     "time_casa": 91,
     "time_fora": 53,
@@ -4765,7 +4765,7 @@
   "pk": 81,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 53,
     "time_fora": 94,
@@ -4806,7 +4806,7 @@
   "pk": 82,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 97,
     "time_fora": 5,
@@ -4847,7 +4847,7 @@
   "pk": 83,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 35,
     "time_fora": 43,
@@ -4888,7 +4888,7 @@
   "pk": 84,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 67,
     "time_fora": 91,
@@ -4929,7 +4929,7 @@
   "pk": 85,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 29,
     "time_fora": 84,
@@ -4970,7 +4970,7 @@
   "pk": 86,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 10,
     "time_fora": 33,
@@ -5011,7 +5011,7 @@
   "pk": 87,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 15,
     "time_fora": 90,
@@ -5052,7 +5052,7 @@
   "pk": 88,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 72,
     "time_fora": 3,
@@ -5093,7 +5093,7 @@
   "pk": 89,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 98,
     "time_fora": 34,
@@ -5134,7 +5134,7 @@
   "pk": 90,
   "fields": {
     "liga": 1,
-    "rodada": "9ª Rodada",
+    "rodada": "9Â¬ Rodada",
     "data": "2025-05-17",
     "time_casa": 1,
     "time_fora": 50,
@@ -5175,7 +5175,7 @@
   "pk": 91,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 33,
     "time_fora": 97,
@@ -5216,7 +5216,7 @@
   "pk": 92,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 35,
     "time_fora": 50,
@@ -5257,7 +5257,7 @@
   "pk": 93,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 34,
     "time_fora": 67,
@@ -5298,7 +5298,7 @@
   "pk": 94,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 43,
     "time_fora": 29,
@@ -5339,7 +5339,7 @@
   "pk": 95,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 3,
     "time_fora": 15,
@@ -5380,7 +5380,7 @@
   "pk": 96,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 94,
     "time_fora": 1,
@@ -5421,7 +5421,7 @@
   "pk": 97,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 84,
     "time_fora": 91,
@@ -5462,7 +5462,7 @@
   "pk": 98,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 5,
     "time_fora": 98,
@@ -5503,7 +5503,7 @@
   "pk": 99,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 72,
     "time_fora": 10,
@@ -5544,7 +5544,7 @@
   "pk": 100,
   "fields": {
     "liga": 1,
-    "rodada": "10ª Rodada",
+    "rodada": "10Â¬ Rodada",
     "data": "2025-05-24",
     "time_casa": 90,
     "time_fora": 53,
@@ -5585,7 +5585,7 @@
   "pk": 101,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 29,
     "time_fora": 35,
@@ -5626,7 +5626,7 @@
   "pk": 102,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 97,
     "time_fora": 72,
@@ -5667,7 +5667,7 @@
   "pk": 103,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 50,
     "time_fora": 94,
@@ -5708,7 +5708,7 @@
   "pk": 104,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 91,
     "time_fora": 90,
@@ -5749,7 +5749,7 @@
   "pk": 105,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 10,
     "time_fora": 43,
@@ -5790,7 +5790,7 @@
   "pk": 106,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 15,
     "time_fora": 5,
@@ -5831,7 +5831,7 @@
   "pk": 107,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 67,
     "time_fora": 84,
@@ -5872,7 +5872,7 @@
   "pk": 108,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 53,
     "time_fora": 34,
@@ -5913,7 +5913,7 @@
   "pk": 109,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 98,
     "time_fora": 3,
@@ -5954,7 +5954,7 @@
   "pk": 110,
   "fields": {
     "liga": 1,
-    "rodada": "11ª Rodada",
+    "rodada": "11Â¬ Rodada",
     "data": "2025-05-31",
     "time_casa": 1,
     "time_fora": 33,
@@ -5995,7 +5995,7 @@
   "pk": 111,
   "fields": {
     "liga": 1,
-    "rodada": "12ª Rodada",
+    "rodada": "12Â¬ Rodada",
     "data": "2025-06-12",
     "time_casa": 72,
     "time_fora": 29,
@@ -6036,7 +6036,7 @@
   "pk": 112,
   "fields": {
     "liga": 1,
-    "rodada": "12ª Rodada",
+    "rodada": "12Â¬ Rodada",
     "data": "2025-06-12",
     "time_casa": 84,
     "time_fora": 98,
@@ -6077,7 +6077,7 @@
   "pk": 113,
   "fields": {
     "liga": 1,
-    "rodada": "12ª Rodada",
+    "rodada": "12Â¬ Rodada",
     "data": "2025-06-12",
     "time_casa": 5,
     "time_fora": 91,
@@ -6118,7 +6118,7 @@
   "pk": 114,
   "fields": {
     "liga": 1,
-    "rodada": "12ª Rodada",
+    "rodada": "12Â¬ Rodada",
     "data": "2025-06-12",
     "time_casa": 43,
     "time_fora": 67,
@@ -6159,7 +6159,7 @@
   "pk": 115,
   "fields": {
     "liga": 1,
-    "rodada": "12ª Rodada",
+    "rodada": "12Â¬ Rodada",
     "data": "2025-06-12",
     "time_casa": 35,
     "time_fora": 97,
@@ -6200,7 +6200,7 @@
   "pk": 116,
   "fields": {
     "liga": 1,
-    "rodada": "12ª Rodada",
+    "rodada": "12Â¬ Rodada",
     "data": "2025-06-12",
     "time_casa": 34,
     "time_fora": 1,
@@ -6241,7 +6241,7 @@
   "pk": 117,
   "fields": {
     "liga": 1,
-    "rodada": "13ª Rodada",
+    "rodada": "13Â¬ Rodada",
     "data": "2025-07-12",
     "time_casa": 15,
     "time_fora": 35,
@@ -6282,7 +6282,7 @@
   "pk": 118,
   "fields": {
     "liga": 1,
-    "rodada": "13ª Rodada",
+    "rodada": "13Â¬ Rodada",
     "data": "2025-07-12",
     "time_casa": 1,
     "time_fora": 84,
@@ -6323,7 +6323,7 @@
   "pk": 119,
   "fields": {
     "liga": 1,
-    "rodada": "13ª Rodada",
+    "rodada": "13Â¬ Rodada",
     "data": "2025-07-12",
     "time_casa": 97,
     "time_fora": 90,
@@ -6364,7 +6364,7 @@
   "pk": 120,
   "fields": {
     "liga": 1,
-    "rodada": "13ª Rodada",
+    "rodada": "13Â¬ Rodada",
     "data": "2025-07-12",
     "time_casa": 29,
     "time_fora": 34,
@@ -6405,7 +6405,7 @@
   "pk": 121,
   "fields": {
     "liga": 1,
-    "rodada": "13ª Rodada",
+    "rodada": "13Â¬ Rodada",
     "data": "2025-07-12",
     "time_casa": 67,
     "time_fora": 72,
@@ -6446,7 +6446,7 @@
   "pk": 122,
   "fields": {
     "liga": 1,
-    "rodada": "13ª Rodada",
+    "rodada": "13Â¬ Rodada",
     "data": "2025-07-12",
     "time_casa": 98,
     "time_fora": 43,
@@ -6487,7 +6487,7 @@
   "pk": 123,
   "fields": {
     "liga": 1,
-    "rodada": "13ª Rodada",
+    "rodada": "13Â¬ Rodada",
     "data": "2025-07-12",
     "time_casa": 5,
     "time_fora": 53,
@@ -6528,7 +6528,7 @@
   "pk": 124,
   "fields": {
     "liga": 1,
-    "rodada": "13ª Rodada",
+    "rodada": "13Â¬ Rodada",
     "data": "2025-07-12",
     "time_casa": 10,
     "time_fora": 94,
@@ -6569,7 +6569,7 @@
   "pk": 125,
   "fields": {
     "liga": 1,
-    "rodada": "14ª Rodada",
+    "rodada": "14Â¬ Rodada",
     "data": "2025-07-16",
     "time_casa": 3,
     "time_fora": 50,
@@ -6610,7 +6610,7 @@
   "pk": 126,
   "fields": {
     "liga": 1,
-    "rodada": "14ª Rodada",
+    "rodada": "14Â¬ Rodada",
     "data": "2025-07-16",
     "time_casa": 53,
     "time_fora": 67,
@@ -6651,7 +6651,7 @@
   "pk": 127,
   "fields": {
     "liga": 1,
-    "rodada": "14ª Rodada",
+    "rodada": "14Â¬ Rodada",
     "data": "2025-07-16",
     "time_casa": 91,
     "time_fora": 15,
@@ -6692,7 +6692,7 @@
   "pk": 128,
   "fields": {
     "liga": 1,
-    "rodada": "14ª Rodada",
+    "rodada": "14Â¬ Rodada",
     "data": "2025-07-16",
     "time_casa": 90,
     "time_fora": 84,
@@ -6733,7 +6733,7 @@
   "pk": 129,
   "fields": {
     "liga": 1,
-    "rodada": "14ª Rodada",
+    "rodada": "14Â¬ Rodada",
     "data": "2025-07-16",
     "time_casa": 72,
     "time_fora": 35,
@@ -6774,7 +6774,7 @@
   "pk": 130,
   "fields": {
     "liga": 1,
-    "rodada": "14ª Rodada",
+    "rodada": "14Â¬ Rodada",
     "data": "2025-07-16",
     "time_casa": 33,
     "time_fora": 98,
@@ -6815,7 +6815,7 @@
   "pk": 131,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 5,
     "time_fora": 29,
@@ -6856,7 +6856,7 @@
   "pk": 132,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 97,
     "time_fora": 43,
@@ -6897,7 +6897,7 @@
   "pk": 133,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 50,
     "time_fora": 91,
@@ -6938,7 +6938,7 @@
   "pk": 134,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 35,
     "time_fora": 67,
@@ -6979,7 +6979,7 @@
   "pk": 135,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 1,
     "time_fora": 53,
@@ -7020,7 +7020,7 @@
   "pk": 136,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 98,
     "time_fora": 10,
@@ -7061,7 +7061,7 @@
   "pk": 137,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 84,
     "time_fora": 72,
@@ -7102,7 +7102,7 @@
   "pk": 138,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 3,
     "time_fora": 34,
@@ -7143,7 +7143,7 @@
   "pk": 139,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 94,
     "time_fora": 90,
@@ -7184,7 +7184,7 @@
   "pk": 140,
   "fields": {
     "liga": 1,
-    "rodada": "15ª Rodada",
+    "rodada": "15Â¬ Rodada",
     "data": "2025-07-20",
     "time_casa": 15,
     "time_fora": 33,
@@ -7225,7 +7225,7 @@
   "pk": 141,
   "fields": {
     "liga": 1,
-    "rodada": "16ª Rodada",
+    "rodada": "16Â¬ Rodada",
     "data": "2025-07-23",
     "time_casa": 33,
     "time_fora": 3,
@@ -7266,7 +7266,7 @@
   "pk": 142,
   "fields": {
     "liga": 1,
-    "rodada": "16ª Rodada",
+    "rodada": "16Â¬ Rodada",
     "data": "2025-07-23",
     "time_casa": 53,
     "time_fora": 50,
@@ -7307,7 +7307,7 @@
   "pk": 143,
   "fields": {
     "liga": 1,
-    "rodada": "16ª Rodada",
+    "rodada": "16Â¬ Rodada",
     "data": "2025-07-23",
     "time_casa": 67,
     "time_fora": 98,
@@ -7348,7 +7348,7 @@
   "pk": 144,
   "fields": {
     "liga": 1,
-    "rodada": "16ª Rodada",
+    "rodada": "16Â¬ Rodada",
     "data": "2025-07-23",
     "time_casa": 91,
     "time_fora": 1,
@@ -7389,7 +7389,7 @@
   "pk": 145,
   "fields": {
     "liga": 1,
-    "rodada": "16ª Rodada",
+    "rodada": "16Â¬ Rodada",
     "data": "2025-07-23",
     "time_casa": 72,
     "time_fora": 15,
@@ -7430,7 +7430,7 @@
   "pk": 146,
   "fields": {
     "liga": 1,
-    "rodada": "16ª Rodada",
+    "rodada": "16Â¬ Rodada",
     "data": "2025-07-23",
     "time_casa": 84,
     "time_fora": 94,
@@ -7471,7 +7471,7 @@
   "pk": 147,
   "fields": {
     "liga": 1,
-    "rodada": "16ª Rodada",
+    "rodada": "16Â¬ Rodada",
     "data": "2025-07-23",
     "time_casa": 10,
     "time_fora": 35,
@@ -7512,7 +7512,7 @@
   "pk": 148,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 90,
     "time_fora": 67,
@@ -7553,7 +7553,7 @@
   "pk": 149,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 50,
     "time_fora": 84,
@@ -7594,7 +7594,7 @@
   "pk": 150,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 5,
     "time_fora": 72,
@@ -7635,7 +7635,7 @@
   "pk": 151,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 94,
     "time_fora": 91,
@@ -7676,7 +7676,7 @@
   "pk": 152,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 3,
     "time_fora": 43,
@@ -7717,7 +7717,7 @@
   "pk": 153,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 35,
     "time_fora": 33,
@@ -7758,7 +7758,7 @@
   "pk": 154,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 98,
     "time_fora": 53,
@@ -7799,7 +7799,7 @@
   "pk": 155,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 1,
     "time_fora": 97,
@@ -7840,7 +7840,7 @@
   "pk": 156,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 29,
     "time_fora": 10,
@@ -7881,7 +7881,7 @@
   "pk": 157,
   "fields": {
     "liga": 1,
-    "rodada": "17ª Rodada",
+    "rodada": "17Â¬ Rodada",
     "data": "2025-07-26",
     "time_casa": 15,
     "time_fora": 34,
@@ -7922,7 +7922,7 @@
   "pk": 158,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 61,
     "time_fora": 57,
@@ -7963,7 +7963,7 @@
   "pk": 159,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 28,
@@ -8004,7 +8004,7 @@
   "pk": 160,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 62,
     "time_fora": 79,
@@ -8045,7 +8045,7 @@
   "pk": 161,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 46,
@@ -8086,7 +8086,7 @@
   "pk": 162,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 48,
     "time_fora": 76,
@@ -8127,7 +8127,7 @@
   "pk": 163,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 8,
     "time_fora": 95,
@@ -8168,7 +8168,7 @@
   "pk": 164,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 68,
     "time_fora": 51,
@@ -8209,7 +8209,7 @@
   "pk": 165,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 13,
     "time_fora": 54,
@@ -8250,7 +8250,7 @@
   "pk": 166,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 39,
     "time_fora": 14,
@@ -8291,7 +8291,7 @@
   "pk": 167,
   "fields": {
     "liga": 2,
-    "rodada": "9º rodada",
+    "rodada": "9â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 82,
     "time_fora": 18,
@@ -8332,7 +8332,7 @@
   "pk": 168,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 46,
     "time_fora": 48,
@@ -8373,7 +8373,7 @@
   "pk": 169,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 79,
     "time_fora": 68,
@@ -8414,7 +8414,7 @@
   "pk": 170,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 76,
     "time_fora": 39,
@@ -8455,7 +8455,7 @@
   "pk": 171,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 51,
     "time_fora": 26,
@@ -8496,7 +8496,7 @@
   "pk": 172,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 54,
     "time_fora": 87,
@@ -8537,7 +8537,7 @@
   "pk": 173,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 14,
     "time_fora": 8,
@@ -8578,7 +8578,7 @@
   "pk": 174,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 18,
     "time_fora": 61,
@@ -8619,7 +8619,7 @@
   "pk": 175,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 95,
     "time_fora": 13,
@@ -8660,7 +8660,7 @@
   "pk": 176,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 57,
     "time_fora": 62,
@@ -8701,7 +8701,7 @@
   "pk": 177,
   "fields": {
     "liga": 2,
-    "rodada": "8º rodada",
+    "rodada": "8â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 28,
     "time_fora": 82,
@@ -8742,7 +8742,7 @@
   "pk": 178,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 79,
@@ -8783,7 +8783,7 @@
   "pk": 179,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 62,
     "time_fora": 54,
@@ -8824,7 +8824,7 @@
   "pk": 180,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 61,
     "time_fora": 95,
@@ -8865,7 +8865,7 @@
   "pk": 181,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 8,
     "time_fora": 46,
@@ -8906,7 +8906,7 @@
   "pk": 182,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 68,
     "time_fora": 76,
@@ -8947,7 +8947,7 @@
   "pk": 183,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 48,
     "time_fora": 14,
@@ -8988,7 +8988,7 @@
   "pk": 184,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 13,
     "time_fora": 18,
@@ -9029,7 +9029,7 @@
   "pk": 185,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 51,
@@ -9070,7 +9070,7 @@
   "pk": 186,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 39,
     "time_fora": 28,
@@ -9111,7 +9111,7 @@
   "pk": 187,
   "fields": {
     "liga": 2,
-    "rodada": "7º rodada",
+    "rodada": "7â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 82,
     "time_fora": 57,
@@ -9152,7 +9152,7 @@
   "pk": 188,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 46,
     "time_fora": 18,
@@ -9193,7 +9193,7 @@
   "pk": 189,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 48,
@@ -9234,7 +9234,7 @@
   "pk": 190,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 54,
     "time_fora": 82,
@@ -9275,7 +9275,7 @@
   "pk": 191,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 39,
@@ -9316,7 +9316,7 @@
   "pk": 192,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 79,
     "time_fora": 8,
@@ -9357,7 +9357,7 @@
   "pk": 193,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 76,
     "time_fora": 13,
@@ -9398,7 +9398,7 @@
   "pk": 194,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 61,
     "time_fora": 62,
@@ -9439,7 +9439,7 @@
   "pk": 195,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 14,
     "time_fora": 68,
@@ -9480,7 +9480,7 @@
   "pk": 196,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 57,
     "time_fora": 95,
@@ -9521,7 +9521,7 @@
   "pk": 197,
   "fields": {
     "liga": 2,
-    "rodada": "6º rodada",
+    "rodada": "6â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 28,
     "time_fora": 51,
@@ -9562,7 +9562,7 @@
   "pk": 198,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 8,
     "time_fora": 87,
@@ -9603,7 +9603,7 @@
   "pk": 199,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 51,
     "time_fora": 79,
@@ -9644,7 +9644,7 @@
   "pk": 200,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 62,
     "time_fora": 13,
@@ -9685,7 +9685,7 @@
   "pk": 201,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 95,
     "time_fora": 76,
@@ -9726,7 +9726,7 @@
   "pk": 202,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 48,
     "time_fora": 54,
@@ -9767,7 +9767,7 @@
   "pk": 203,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 68,
     "time_fora": 57,
@@ -9808,7 +9808,7 @@
   "pk": 204,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 18,
     "time_fora": 14,
@@ -9849,7 +9849,7 @@
   "pk": 205,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 39,
     "time_fora": 61,
@@ -9890,7 +9890,7 @@
   "pk": 206,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 82,
     "time_fora": 26,
@@ -9931,7 +9931,7 @@
   "pk": 207,
   "fields": {
     "liga": 2,
-    "rodada": "5º rodada",
+    "rodada": "5â•‘ rodada",
     "data": "2025-04-27",
     "time_casa": 28,
     "time_fora": 46,
@@ -9972,7 +9972,7 @@
   "pk": 208,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 46,
     "time_fora": 57,
@@ -10013,7 +10013,7 @@
   "pk": 209,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 76,
     "time_fora": 18,
@@ -10054,7 +10054,7 @@
   "pk": 210,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 13,
     "time_fora": 61,
@@ -10095,7 +10095,7 @@
   "pk": 211,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 26,
     "time_fora": 14,
@@ -10136,7 +10136,7 @@
   "pk": 212,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 79,
     "time_fora": 28,
@@ -10177,7 +10177,7 @@
   "pk": 213,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 51,
     "time_fora": 39,
@@ -10218,7 +10218,7 @@
   "pk": 214,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 48,
     "time_fora": 62,
@@ -10259,7 +10259,7 @@
   "pk": 215,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 87,
     "time_fora": 95,
@@ -10300,7 +10300,7 @@
   "pk": 216,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 54,
     "time_fora": 68,
@@ -10341,7 +10341,7 @@
   "pk": 217,
   "fields": {
     "liga": 2,
-    "rodada": "4º rodada",
+    "rodada": "4â•‘ rodada",
     "data": "2025-04-21",
     "time_casa": 82,
     "time_fora": 8,
@@ -10382,7 +10382,7 @@
   "pk": 218,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 68,
     "time_fora": 26,
@@ -10423,7 +10423,7 @@
   "pk": 219,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 62,
     "time_fora": 76,
@@ -10464,7 +10464,7 @@
   "pk": 220,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 95,
     "time_fora": 82,
@@ -10505,7 +10505,7 @@
   "pk": 221,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 18,
     "time_fora": 79,
@@ -10546,7 +10546,7 @@
   "pk": 222,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 13,
     "time_fora": 48,
@@ -10587,7 +10587,7 @@
   "pk": 223,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 14,
     "time_fora": 46,
@@ -10628,7 +10628,7 @@
   "pk": 224,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 8,
     "time_fora": 28,
@@ -10669,7 +10669,7 @@
   "pk": 225,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 61,
     "time_fora": 51,
@@ -10710,7 +10710,7 @@
   "pk": 226,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 39,
     "time_fora": 87,
@@ -10751,7 +10751,7 @@
   "pk": 227,
   "fields": {
     "liga": 2,
-    "rodada": "3º rodada",
+    "rodada": "3â•‘ rodada",
     "data": "2025-04-17",
     "time_casa": 57,
     "time_fora": 54,
@@ -10792,7 +10792,7 @@
   "pk": 228,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 26,
     "time_fora": 8,
@@ -10833,7 +10833,7 @@
   "pk": 229,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 68,
     "time_fora": 62,
@@ -10874,7 +10874,7 @@
   "pk": 230,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 48,
     "time_fora": 57,
@@ -10915,7 +10915,7 @@
   "pk": 231,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 79,
     "time_fora": 95,
@@ -10956,7 +10956,7 @@
   "pk": 232,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 76,
     "time_fora": 61,
@@ -10997,7 +10997,7 @@
   "pk": 233,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 51,
     "time_fora": 18,
@@ -11038,7 +11038,7 @@
   "pk": 234,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 87,
     "time_fora": 13,
@@ -11079,7 +11079,7 @@
   "pk": 235,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 39,
     "time_fora": 54,
@@ -11120,7 +11120,7 @@
   "pk": 236,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 82,
     "time_fora": 46,
@@ -11161,7 +11161,7 @@
   "pk": 237,
   "fields": {
     "liga": 2,
-    "rodada": "2º rodada",
+    "rodada": "2â•‘ rodada",
     "data": "2025-04-10",
     "time_casa": 28,
     "time_fora": 14,
@@ -11202,7 +11202,7 @@
   "pk": 238,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 57,
@@ -11243,7 +11243,7 @@
   "pk": 239,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 76,
     "time_fora": 8,
@@ -11284,7 +11284,7 @@
   "pk": 240,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 48,
     "time_fora": 61,
@@ -11325,7 +11325,7 @@
   "pk": 241,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 18,
@@ -11366,7 +11366,7 @@
   "pk": 242,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 79,
     "time_fora": 14,
@@ -11407,7 +11407,7 @@
   "pk": 243,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 68,
     "time_fora": 46,
@@ -11448,7 +11448,7 @@
   "pk": 244,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 51,
     "time_fora": 95,
@@ -11489,7 +11489,7 @@
   "pk": 245,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 39,
     "time_fora": 13,
@@ -11530,7 +11530,7 @@
   "pk": 246,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 82,
     "time_fora": 62,
@@ -11571,7 +11571,7 @@
   "pk": 247,
   "fields": {
     "liga": 2,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 28,
     "time_fora": 54,
@@ -11612,7 +11612,7 @@
   "pk": 248,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 46,
     "time_fora": 68,
@@ -11653,7 +11653,7 @@
   "pk": 249,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 8,
     "time_fora": 76,
@@ -11694,7 +11694,7 @@
   "pk": 250,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 61,
     "time_fora": 48,
@@ -11735,7 +11735,7 @@
   "pk": 251,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 18,
     "time_fora": 26,
@@ -11776,7 +11776,7 @@
   "pk": 252,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 13,
     "time_fora": 39,
@@ -11817,7 +11817,7 @@
   "pk": 253,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 95,
     "time_fora": 51,
@@ -11858,7 +11858,7 @@
   "pk": 254,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 14,
     "time_fora": 79,
@@ -11899,7 +11899,7 @@
   "pk": 255,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 62,
     "time_fora": 82,
@@ -11940,7 +11940,7 @@
   "pk": 256,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 54,
     "time_fora": 28,
@@ -11981,7 +11981,7 @@
   "pk": 257,
   "fields": {
     "liga": 2,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-04-05",
     "time_casa": 57,
     "time_fora": 87,
@@ -12022,7 +12022,7 @@
   "pk": 258,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 46,
     "time_fora": 51,
@@ -12063,7 +12063,7 @@
   "pk": 259,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 14,
     "time_fora": 82,
@@ -12104,7 +12104,7 @@
   "pk": 260,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 13,
     "time_fora": 26,
@@ -12145,7 +12145,7 @@
   "pk": 261,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 54,
     "time_fora": 79,
@@ -12186,7 +12186,7 @@
   "pk": 262,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 95,
     "time_fora": 48,
@@ -12227,7 +12227,7 @@
   "pk": 263,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 62,
     "time_fora": 39,
@@ -12268,7 +12268,7 @@
   "pk": 264,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 18,
     "time_fora": 28,
@@ -12309,7 +12309,7 @@
   "pk": 265,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 8,
     "time_fora": 68,
@@ -12350,7 +12350,7 @@
   "pk": 266,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 61,
     "time_fora": 87,
@@ -12391,7 +12391,7 @@
   "pk": 267,
   "fields": {
     "liga": 2,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 57,
     "time_fora": 76,
@@ -12432,7 +12432,7 @@
   "pk": 268,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 57,
@@ -12473,7 +12473,7 @@
   "pk": 269,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 76,
     "time_fora": 54,
@@ -12514,7 +12514,7 @@
   "pk": 270,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 51,
     "time_fora": 14,
@@ -12555,7 +12555,7 @@
   "pk": 271,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 48,
     "time_fora": 18,
@@ -12596,7 +12596,7 @@
   "pk": 272,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 79,
     "time_fora": 46,
@@ -12637,7 +12637,7 @@
   "pk": 273,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 68,
     "time_fora": 13,
@@ -12678,7 +12678,7 @@
   "pk": 274,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 62,
@@ -12719,7 +12719,7 @@
   "pk": 275,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 39,
     "time_fora": 8,
@@ -12760,7 +12760,7 @@
   "pk": 276,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 82,
     "time_fora": 61,
@@ -12801,7 +12801,7 @@
   "pk": 277,
   "fields": {
     "liga": 2,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 28,
     "time_fora": 95,
@@ -12842,7 +12842,7 @@
   "pk": 278,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 82,
@@ -12883,7 +12883,7 @@
   "pk": 279,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 46,
     "time_fora": 26,
@@ -12924,7 +12924,7 @@
   "pk": 280,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 76,
     "time_fora": 14,
@@ -12965,7 +12965,7 @@
   "pk": 281,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 54,
     "time_fora": 8,
@@ -13006,7 +13006,7 @@
   "pk": 282,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 62,
     "time_fora": 51,
@@ -13047,7 +13047,7 @@
   "pk": 283,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 95,
     "time_fora": 18,
@@ -13088,7 +13088,7 @@
   "pk": 284,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 61,
     "time_fora": 68,
@@ -13129,7 +13129,7 @@
   "pk": 285,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 48,
     "time_fora": 39,
@@ -13170,7 +13170,7 @@
   "pk": 286,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 13,
     "time_fora": 79,
@@ -13211,7 +13211,7 @@
   "pk": 287,
   "fields": {
     "liga": 2,
-    "rodada": "17º rodada",
+    "rodada": "17â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 57,
     "time_fora": 28,
@@ -13252,7 +13252,7 @@
   "pk": 288,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 14,
     "time_fora": 95,
@@ -13293,7 +13293,7 @@
   "pk": 289,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 51,
     "time_fora": 76,
@@ -13334,7 +13334,7 @@
   "pk": 290,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 61,
@@ -13375,7 +13375,7 @@
   "pk": 291,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 18,
     "time_fora": 54,
@@ -13416,7 +13416,7 @@
   "pk": 292,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 79,
     "time_fora": 87,
@@ -13457,7 +13457,7 @@
   "pk": 293,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 8,
     "time_fora": 57,
@@ -13498,7 +13498,7 @@
   "pk": 294,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 68,
     "time_fora": 48,
@@ -13539,7 +13539,7 @@
   "pk": 295,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 39,
     "time_fora": 46,
@@ -13580,7 +13580,7 @@
   "pk": 296,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 82,
     "time_fora": 13,
@@ -13621,7 +13621,7 @@
   "pk": 297,
   "fields": {
     "liga": 2,
-    "rodada": "16º rodada",
+    "rodada": "16â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 28,
     "time_fora": 62,
@@ -13662,7 +13662,7 @@
   "pk": 298,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 54,
     "time_fora": 14,
@@ -13703,7 +13703,7 @@
   "pk": 299,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 95,
     "time_fora": 46,
@@ -13744,7 +13744,7 @@
   "pk": 300,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 48,
     "time_fora": 26,
@@ -13785,7 +13785,7 @@
   "pk": 301,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 62,
     "time_fora": 18,
@@ -13826,7 +13826,7 @@
   "pk": 302,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 68,
@@ -13867,7 +13867,7 @@
   "pk": 303,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 76,
     "time_fora": 79,
@@ -13908,7 +13908,7 @@
   "pk": 304,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 61,
     "time_fora": 8,
@@ -13949,7 +13949,7 @@
   "pk": 305,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 39,
     "time_fora": 82,
@@ -13990,7 +13990,7 @@
   "pk": 306,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 57,
     "time_fora": 51,
@@ -14031,7 +14031,7 @@
   "pk": 307,
   "fields": {
     "liga": 2,
-    "rodada": "15º rodada",
+    "rodada": "15â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 13,
     "time_fora": 28,
@@ -14072,7 +14072,7 @@
   "pk": 308,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 46,
     "time_fora": 76,
@@ -14113,7 +14113,7 @@
   "pk": 309,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 14,
     "time_fora": 13,
@@ -14154,7 +14154,7 @@
   "pk": 310,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 8,
     "time_fora": 62,
@@ -14195,7 +14195,7 @@
   "pk": 311,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 95,
@@ -14236,7 +14236,7 @@
   "pk": 312,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 51,
     "time_fora": 54,
@@ -14277,7 +14277,7 @@
   "pk": 313,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 79,
     "time_fora": 61,
@@ -14318,7 +14318,7 @@
   "pk": 314,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 68,
     "time_fora": 39,
@@ -14359,7 +14359,7 @@
   "pk": 315,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 18,
     "time_fora": 57,
@@ -14400,7 +14400,7 @@
   "pk": 316,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 82,
     "time_fora": 48,
@@ -14441,7 +14441,7 @@
   "pk": 317,
   "fields": {
     "liga": 2,
-    "rodada": "14º rodada",
+    "rodada": "14â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 28,
     "time_fora": 87,
@@ -14482,7 +14482,7 @@
   "pk": 318,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 13,
     "time_fora": 8,
@@ -14523,7 +14523,7 @@
   "pk": 319,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 62,
     "time_fora": 26,
@@ -14564,7 +14564,7 @@
   "pk": 320,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 18,
@@ -14605,7 +14605,7 @@
   "pk": 321,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 48,
     "time_fora": 51,
@@ -14646,7 +14646,7 @@
   "pk": 322,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 54,
     "time_fora": 46,
@@ -14687,7 +14687,7 @@
   "pk": 323,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 95,
     "time_fora": 68,
@@ -14728,7 +14728,7 @@
   "pk": 324,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 61,
     "time_fora": 28,
@@ -14769,7 +14769,7 @@
   "pk": 325,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 76,
     "time_fora": 82,
@@ -14810,7 +14810,7 @@
   "pk": 326,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 39,
     "time_fora": 79,
@@ -14851,7 +14851,7 @@
   "pk": 327,
   "fields": {
     "liga": 2,
-    "rodada": "13º rodada",
+    "rodada": "13â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 57,
     "time_fora": 14,
@@ -14892,7 +14892,7 @@
   "pk": 328,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 46,
     "time_fora": 62,
@@ -14933,7 +14933,7 @@
   "pk": 329,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 51,
     "time_fora": 13,
@@ -14974,7 +14974,7 @@
   "pk": 330,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 87,
@@ -15015,7 +15015,7 @@
   "pk": 331,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 14,
     "time_fora": 61,
@@ -15056,7 +15056,7 @@
   "pk": 332,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 54,
     "time_fora": 95,
@@ -15097,7 +15097,7 @@
   "pk": 333,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 8,
     "time_fora": 48,
@@ -15138,7 +15138,7 @@
   "pk": 334,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 79,
     "time_fora": 57,
@@ -15179,7 +15179,7 @@
   "pk": 335,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 18,
     "time_fora": 39,
@@ -15220,7 +15220,7 @@
   "pk": 336,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 82,
     "time_fora": 68,
@@ -15261,7 +15261,7 @@
   "pk": 337,
   "fields": {
     "liga": 2,
-    "rodada": "12º rodada",
+    "rodada": "12â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 28,
     "time_fora": 76,
@@ -15302,7 +15302,7 @@
   "pk": 338,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 68,
     "time_fora": 18,
@@ -15343,7 +15343,7 @@
   "pk": 339,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 13,
     "time_fora": 57,
@@ -15384,7 +15384,7 @@
   "pk": 340,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 62,
     "time_fora": 14,
@@ -15425,7 +15425,7 @@
   "pk": 341,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 26,
     "time_fora": 54,
@@ -15466,7 +15466,7 @@
   "pk": 342,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 61,
     "time_fora": 46,
@@ -15507,7 +15507,7 @@
   "pk": 343,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 87,
     "time_fora": 76,
@@ -15548,7 +15548,7 @@
   "pk": 344,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 48,
     "time_fora": 28,
@@ -15589,7 +15589,7 @@
   "pk": 345,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 8,
     "time_fora": 51,
@@ -15630,7 +15630,7 @@
   "pk": 346,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 39,
     "time_fora": 95,
@@ -15671,7 +15671,7 @@
   "pk": 347,
   "fields": {
     "liga": 2,
-    "rodada": "11º rodada",
+    "rodada": "11â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 82,
     "time_fora": 79,
@@ -15712,7 +15712,7 @@
   "pk": 348,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 46,
     "time_fora": 13,
@@ -15753,7 +15753,7 @@
   "pk": 349,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 14,
     "time_fora": 87,
@@ -15794,7 +15794,7 @@
   "pk": 350,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 76,
     "time_fora": 26,
@@ -15835,7 +15835,7 @@
   "pk": 351,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 79,
     "time_fora": 48,
@@ -15876,7 +15876,7 @@
   "pk": 352,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 18,
     "time_fora": 8,
@@ -15917,7 +15917,7 @@
   "pk": 353,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 51,
     "time_fora": 82,
@@ -15958,7 +15958,7 @@
   "pk": 354,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 54,
     "time_fora": 61,
@@ -15999,7 +15999,7 @@
   "pk": 355,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 95,
     "time_fora": 62,
@@ -16040,7 +16040,7 @@
   "pk": 356,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 57,
     "time_fora": 39,
@@ -16081,7 +16081,7 @@
   "pk": 357,
   "fields": {
     "liga": 2,
-    "rodada": "10º rodada",
+    "rodada": "10â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 28,
     "time_fora": 68,
@@ -16122,7 +16122,7 @@
   "pk": 358,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-05-03",
     "time_casa": 57,
     "time_fora": 48,
@@ -16163,7 +16163,7 @@
   "pk": 359,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 15,
     "time_fora": 50,
@@ -16204,7 +16204,7 @@
   "pk": 360,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 35,
     "time_fora": 84,
@@ -16245,7 +16245,7 @@
   "pk": 361,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 72,
     "time_fora": 1,
@@ -16286,7 +16286,7 @@
   "pk": 362,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 5,
     "time_fora": 90,
@@ -16327,7 +16327,7 @@
   "pk": 363,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 29,
     "time_fora": 33,
@@ -16368,7 +16368,7 @@
   "pk": 364,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 97,
     "time_fora": 34,
@@ -16409,7 +16409,7 @@
   "pk": 365,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 3,
     "time_fora": 53,
@@ -16450,7 +16450,7 @@
   "pk": 366,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 98,
     "time_fora": 91,
@@ -16491,7 +16491,7 @@
   "pk": 367,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 43,
     "time_fora": 94,
@@ -16532,7 +16532,7 @@
   "pk": 368,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 94,
     "time_fora": 29,
@@ -16573,7 +16573,7 @@
   "pk": 369,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 50,
     "time_fora": 97,
@@ -16614,7 +16614,7 @@
   "pk": 370,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 33,
     "time_fora": 43,
@@ -16655,7 +16655,7 @@
   "pk": 371,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 90,
     "time_fora": 98,
@@ -16696,7 +16696,7 @@
   "pk": 372,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 67,
     "time_fora": 5,
@@ -16737,7 +16737,7 @@
   "pk": 373,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 34,
     "time_fora": 72,
@@ -16778,7 +16778,7 @@
   "pk": 374,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 53,
     "time_fora": 15,
@@ -16819,7 +16819,7 @@
   "pk": 375,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 84,
     "time_fora": 3,
@@ -16860,7 +16860,7 @@
   "pk": 376,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 1,
     "time_fora": 35,
@@ -16901,7 +16901,7 @@
   "pk": 377,
   "fields": {
     "liga": 1,
-    "rodada": "18º rodada",
+    "rodada": "18â•‘ rodada",
     "data": "2025-08-02",
     "time_casa": 91,
     "time_fora": 10,
@@ -16942,7 +16942,7 @@
   "pk": 378,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 95,
     "time_fora": 79,
@@ -16983,7 +16983,7 @@
   "pk": 379,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 13,
     "time_fora": 87,
@@ -17024,7 +17024,7 @@
   "pk": 380,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 61,
     "time_fora": 76,
@@ -17065,7 +17065,7 @@
   "pk": 381,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 46,
     "time_fora": 82,
@@ -17106,7 +17106,7 @@
   "pk": 382,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 62,
     "time_fora": 68,
@@ -17147,7 +17147,7 @@
   "pk": 383,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 54,
     "time_fora": 39,
@@ -17188,7 +17188,7 @@
   "pk": 384,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 8,
     "time_fora": 26,
@@ -17229,7 +17229,7 @@
   "pk": 385,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 18,
     "time_fora": 51,
@@ -17270,7 +17270,7 @@
   "pk": 386,
   "fields": {
     "liga": 2,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-08",
     "time_casa": 14,
     "time_fora": 28,
@@ -17311,7 +17311,7 @@
   "pk": 387,
   "fields": {
     "liga": 1,
-    "rodada": "14ª Rodada",
+    "rodada": "14Â¬ Rodada",
     "data": "2025-07-16",
     "time_casa": 43,
     "time_fora": 5,
@@ -17352,7 +17352,7 @@
   "pk": 388,
   "fields": {
     "liga": 1,
-    "rodada": "19º rodada",
+    "rodada": "19â•‘ rodada",
     "data": "2025-08-09",
     "time_casa": 10,
     "time_fora": 67,
@@ -17393,7 +17393,7 @@
   "pk": 389,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 90,
     "time_fora": 3,
@@ -17434,7 +17434,7 @@
   "pk": 390,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 1,
     "time_fora": 15,
@@ -17475,7 +17475,7 @@
   "pk": 391,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 34,
     "time_fora": 43,
@@ -17516,7 +17516,7 @@
   "pk": 392,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 91,
     "time_fora": 97,
@@ -17557,7 +17557,7 @@
   "pk": 393,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 67,
     "time_fora": 29,
@@ -17598,7 +17598,7 @@
   "pk": 394,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 94,
     "time_fora": 35,
@@ -17639,7 +17639,7 @@
   "pk": 395,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 84,
     "time_fora": 10,
@@ -17680,7 +17680,7 @@
   "pk": 396,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 53,
     "time_fora": 72,
@@ -17721,7 +17721,7 @@
   "pk": 397,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 33,
     "time_fora": 5,
@@ -17762,7 +17762,7 @@
   "pk": 398,
   "fields": {
     "liga": 1,
-    "rodada": "20º rodada",
+    "rodada": "20â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 50,
     "time_fora": 98,
@@ -17803,7 +17803,7 @@
   "pk": 399,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 76,
     "time_fora": 62,
@@ -17844,7 +17844,7 @@
   "pk": 400,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 28,
     "time_fora": 8,
@@ -17885,7 +17885,7 @@
   "pk": 401,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 46,
     "time_fora": 14,
@@ -17926,7 +17926,7 @@
   "pk": 402,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 54,
     "time_fora": 57,
@@ -17967,7 +17967,7 @@
   "pk": 403,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 79,
     "time_fora": 18,
@@ -18008,7 +18008,7 @@
   "pk": 404,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 26,
     "time_fora": 68,
@@ -18049,7 +18049,7 @@
   "pk": 405,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 51,
     "time_fora": 61,
@@ -18090,7 +18090,7 @@
   "pk": 406,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 87,
     "time_fora": 39,
@@ -18131,7 +18131,7 @@
   "pk": 407,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 48,
     "time_fora": 13,
@@ -18172,7 +18172,7 @@
   "pk": 408,
   "fields": {
     "liga": 2,
-    "rodada": "22º rodada",
+    "rodada": "22â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 82,
     "time_fora": 95,
@@ -18213,7 +18213,7 @@
   "pk": 409,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 41,
     "time_fora": 73,
@@ -18254,7 +18254,7 @@
   "pk": 410,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 89,
     "time_fora": 70,
@@ -18295,7 +18295,7 @@
   "pk": 411,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 88,
     "time_fora": 40,
@@ -18336,7 +18336,7 @@
   "pk": 412,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 96,
     "time_fora": 24,
@@ -18377,7 +18377,7 @@
   "pk": 413,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 38,
     "time_fora": 6,
@@ -18418,7 +18418,7 @@
   "pk": 414,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 32,
     "time_fora": 20,
@@ -18459,7 +18459,7 @@
   "pk": 415,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 36,
     "time_fora": 92,
@@ -18500,7 +18500,7 @@
   "pk": 416,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 74,
     "time_fora": 37,
@@ -18541,7 +18541,7 @@
   "pk": 417,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 23,
     "time_fora": 86,
@@ -18582,7 +18582,7 @@
   "pk": 418,
   "fields": {
     "liga": 3,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 52,
     "time_fora": 63,
@@ -18623,7 +18623,7 @@
   "pk": 419,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 4,
     "time_fora": 60,
@@ -18664,7 +18664,7 @@
   "pk": 420,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 45,
     "time_fora": 27,
@@ -18705,7 +18705,7 @@
   "pk": 421,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 31,
     "time_fora": 83,
@@ -18746,7 +18746,7 @@
   "pk": 422,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 12,
     "time_fora": 49,
@@ -18787,7 +18787,7 @@
   "pk": 423,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 69,
     "time_fora": 21,
@@ -18828,7 +18828,7 @@
   "pk": 424,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 42,
     "time_fora": 65,
@@ -18869,7 +18869,7 @@
   "pk": 425,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 58,
     "time_fora": 44,
@@ -18910,7 +18910,7 @@
   "pk": 426,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 64,
     "time_fora": 16,
@@ -18951,7 +18951,7 @@
   "pk": 427,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 75,
     "time_fora": 30,
@@ -18992,7 +18992,7 @@
   "pk": 428,
   "fields": {
     "liga": 4,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 66,
     "time_fora": 56,
@@ -19033,7 +19033,7 @@
   "pk": 429,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 15,
     "time_fora": 84,
@@ -19074,7 +19074,7 @@
   "pk": 430,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 3,
     "time_fora": 94,
@@ -19115,7 +19115,7 @@
   "pk": 431,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 35,
     "time_fora": 34,
@@ -19156,7 +19156,7 @@
   "pk": 432,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 5,
     "time_fora": 50,
@@ -19197,7 +19197,7 @@
   "pk": 433,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 10,
     "time_fora": 90,
@@ -19238,7 +19238,7 @@
   "pk": 434,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 29,
     "time_fora": 91,
@@ -19279,7 +19279,7 @@
   "pk": 435,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 97,
     "time_fora": 67,
@@ -19320,7 +19320,7 @@
   "pk": 436,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 43,
     "time_fora": 53,
@@ -19361,7 +19361,7 @@
   "pk": 437,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 98,
     "time_fora": 1,
@@ -19402,7 +19402,7 @@
   "pk": 438,
   "fields": {
     "liga": 1,
-    "rodada": "21º rodada",
+    "rodada": "21â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 72,
     "time_fora": 33,
@@ -19443,7 +19443,7 @@
   "pk": 439,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 62,
     "time_fora": 48,
@@ -19484,7 +19484,7 @@
   "pk": 440,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 39,
     "time_fora": 51,
@@ -19525,7 +19525,7 @@
   "pk": 441,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 68,
     "time_fora": 54,
@@ -19566,7 +19566,7 @@
   "pk": 442,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 57,
     "time_fora": 46,
@@ -19607,7 +19607,7 @@
   "pk": 443,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 18,
     "time_fora": 76,
@@ -19648,7 +19648,7 @@
   "pk": 444,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 14,
     "time_fora": 26,
@@ -19689,7 +19689,7 @@
   "pk": 445,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 61,
     "time_fora": 13,
@@ -19730,7 +19730,7 @@
   "pk": 446,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 95,
     "time_fora": 87,
@@ -19771,7 +19771,7 @@
   "pk": 447,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 8,
     "time_fora": 82,
@@ -19812,7 +19812,7 @@
   "pk": 448,
   "fields": {
     "liga": 2,
-    "rodada": "23º rodada",
+    "rodada": "23â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 28,
     "time_fora": 79,
@@ -19853,7 +19853,7 @@
   "pk": 449,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 86,
     "time_fora": 52,
@@ -19894,7 +19894,7 @@
   "pk": 450,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 20,
     "time_fora": 89,
@@ -19935,7 +19935,7 @@
   "pk": 451,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 40,
     "time_fora": 96,
@@ -19976,7 +19976,7 @@
   "pk": 452,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 73,
     "time_fora": 32,
@@ -20017,7 +20017,7 @@
   "pk": 453,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 70,
     "time_fora": 41,
@@ -20058,7 +20058,7 @@
   "pk": 454,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 63,
     "time_fora": 38,
@@ -20099,7 +20099,7 @@
   "pk": 455,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 24,
     "time_fora": 23,
@@ -20140,7 +20140,7 @@
   "pk": 456,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 37,
     "time_fora": 36,
@@ -20181,7 +20181,7 @@
   "pk": 457,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 6,
     "time_fora": 74,
@@ -20222,7 +20222,7 @@
   "pk": 458,
   "fields": {
     "liga": 3,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 92,
     "time_fora": 88,
@@ -20263,7 +20263,7 @@
   "pk": 459,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 49,
     "time_fora": 21,
@@ -20304,7 +20304,7 @@
   "pk": 460,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 12,
     "time_fora": 56,
@@ -20345,7 +20345,7 @@
   "pk": 461,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 30,
     "time_fora": 4,
@@ -20386,7 +20386,7 @@
   "pk": 462,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 44,
     "time_fora": 31,
@@ -20427,7 +20427,7 @@
   "pk": 463,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 75,
     "time_fora": 66,
@@ -20468,7 +20468,7 @@
   "pk": 464,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 60,
     "time_fora": 58,
@@ -20509,7 +20509,7 @@
   "pk": 465,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 65,
     "time_fora": 16,
@@ -20550,7 +20550,7 @@
   "pk": 466,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 83,
     "time_fora": 45,
@@ -20591,7 +20591,7 @@
   "pk": 467,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 64,
     "time_fora": 69,
@@ -20632,7 +20632,7 @@
   "pk": 468,
   "fields": {
     "liga": 4,
-    "rodada": "2ª Rodada",
+    "rodada": "2Â¬ Rodada",
     "data": "2025-08-17",
     "time_casa": 27,
     "time_fora": 42,
@@ -20673,7 +20673,7 @@
   "pk": 469,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 80,
     "time_fora": 93,
@@ -20714,7 +20714,7 @@
   "pk": 470,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 7,
     "time_fora": 99,
@@ -20755,7 +20755,7 @@
   "pk": 471,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 25,
     "time_fora": 81,
@@ -20796,7 +20796,7 @@
   "pk": 472,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 85,
     "time_fora": 2,
@@ -20837,7 +20837,7 @@
   "pk": 473,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 55,
     "time_fora": 19,
@@ -20878,7 +20878,7 @@
   "pk": 474,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 47,
     "time_fora": 78,
@@ -20919,7 +20919,7 @@
   "pk": 475,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 9,
     "time_fora": 100,
@@ -20960,7 +20960,7 @@
   "pk": 476,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 77,
     "time_fora": 17,
@@ -21001,7 +21001,7 @@
   "pk": 477,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 22,
     "time_fora": 11,
@@ -21042,7 +21042,7 @@
   "pk": 478,
   "fields": {
     "liga": 5,
-    "rodada": "1º rodada",
+    "rodada": "1â•‘ rodada",
     "data": "2025-08-17",
     "time_casa": 71,
     "time_fora": 59,
@@ -40087,7 +40087,7 @@
     "banca": 1,
     "data": "2025-09-14T14:01:00Z",
     "evento": "Serie A | Flamengo x Juventude",
-    "mercado": "Aposta Única",
+    "mercado": "Aposta â”Œnica",
     "odd": "1.50",
     "valor_apostado": "0.50",
     "resultado": "RED",
@@ -40134,8 +40134,8 @@
   "fields": {
     "banca": 1,
     "data": "2025-09-15T18:17:00Z",
-    "evento": "Serie B | CRB x Amazonas | Race 3 | +0,5 gols | -15,5 finalizações Fora",
-    "mercado": "Aposta Única",
+    "evento": "Serie B | CRB x Amazonas | Race 3 | +0,5 gols | -15,5 finalizaÏ„âŒ¡es Fora",
+    "mercado": "Aposta â”Œnica",
     "odd": "1.52",
     "valor_apostado": "0.50",
     "resultado": "GREEN",
@@ -40183,7 +40183,7 @@
     "banca": 1,
     "data": "2025-09-16T14:30:00Z",
     "evento": "Juventus x B.Dortmund",
-    "mercado": "Aposta Única",
+    "mercado": "Aposta â”Œnica",
     "odd": "1.50",
     "valor_apostado": "0.50",
     "resultado": "GREEN",
@@ -40327,7 +40327,7 @@
     "banca": 1,
     "data": "2025-09-18T12:47:00Z",
     "evento": "Libertadores | Flamengo X Estudiantes",
-    "mercado": "Aposta Única",
+    "mercado": "Aposta â”Œnica",
     "odd": "1.50",
     "valor_apostado": "0.50",
     "resultado": "PENDING",
@@ -40342,7 +40342,7 @@
   "fields": {
     "banca": 5,
     "data": "2025-09-18T12:48:00Z",
-    "evento": "Champions |+0,5 Gols HT| City x Napoli | Newcastle x Barça | Sporting x Kairat",
+    "evento": "Champions |+0,5 Gols HT| City x Napoli | Newcastle x BarÏ„a | Sporting x Kairat",
     "mercado": "Tripla",
     "odd": "2.52",
     "valor_apostado": "0.50",
@@ -40358,7 +40358,7 @@
   "fields": {
     "banca": 5,
     "data": "2025-09-18T12:50:00Z",
-    "evento": "Ambos Marcam | City x Napoli | Newcastle x Barça",
+    "evento": "Ambos Marcam | City x Napoli | Newcastle x BarÏ„a",
     "mercado": "Dupla",
     "odd": "2.58",
     "valor_apostado": "0.50",
@@ -40375,7 +40375,7 @@
     "banca": 1,
     "data": "2025-09-18T12:51:00Z",
     "evento": "Champions League | Sporting x Kairat",
-    "mercado": "Aposta Única",
+    "mercado": "Aposta â”Œnica",
     "odd": "1.50",
     "valor_apostado": "0.50",
     "resultado": "PENDING",
@@ -40390,7 +40390,7 @@
   "fields": {
     "banca": 4,
     "data": "2025-09-18T12:53:00Z",
-    "evento": "Champions |+1,5 Gols | City x Napoli | Newcastle x Barça | Flamengo x Estudiantes",
+    "evento": "Champions |+1,5 Gols | City x Napoli | Newcastle x BarÏ„a | Flamengo x Estudiantes",
     "mercado": "Tripla",
     "odd": "1.62",
     "valor_apostado": "0.50",
