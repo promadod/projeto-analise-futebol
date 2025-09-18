@@ -1,0 +1,25 @@
+{% extends 'app_analise/base.html' %}
+{% block title %}Confirmar Deleção{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-danger text-white">
+            <h3>Confirmar Deleção de Banca</h3>
+        </div>
+        <div class="card-body">
+            <p>Você tem certeza que deseja deletar permanentemente a banca:</p>
+            <h4 class="text-center my-3">"{{ banca.nome }}"</h4>
+            <p class="text-danger">Atenção: Todas as apostas associadas a esta banca também serão apagadas!</p>
+            
+            <form method="post">
+                {% csrf_token %}
+                <div class="d-flex justify-content-end">
+                    <a href="{% url 'app_analise:gerenciar_bancas' %}" class="btn btn-secondary me-2">Cancelar</a>
+                    <button type="submit" class="btn btn-danger">Sim, Deletar Permanentemente</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Jogo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root { --cor-principal-verde: #069c56; }
+        body { background-color: #f0f2f5; }
+        .navbar-custom { background-color: var(--cor-principal-verde); }
+        .card-header-custom { background-color: var(--cor-principal-verde); color: white; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'painel_analise' %}"><strong>Análise Futebol</strong></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'painel_analise' %}">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{% url 'cadastrar_jogo' %}">Cadastrar Jogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'cadastrar_time' %}">Cadastrar Time</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'cadastrar_liga' %}">Cadastrar Liga</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'pagina_ranking' %}">Ranking</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <h1 class="mb-4">Cadastrar Novo Jogo</h1>
+        
+        <form method="POST" id="jogoForm" action="{% url 'cadastrar_jogo' %}">
+            {% csrf_token %}
+            <div class="card shadow-sm mb-4">
+                <div class="card-header card-header-custom">Informações da Partida</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="{{ form.liga.id_for_label }}" class="form-label">Liga</label>
+                            {{ form.liga }}
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="{{ form.rodada.id_for_label }}" class="form-label">Rodada</label>
+                            {{ form.rodada }}
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="{{ form.data.id_for_label }}" class="form-label">Data</label>
+                            {{ form.data }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-header card-header-custom">Time da Casa</div>
+                        <div class="card-body">
+                            <div class="mb-3">{{ form.time_casa.label_tag }} {{ form.time_casa }}</div>
+                            <div class="mb-3">{{ form.placar_casa.label_tag }} {{ form.placar_casa }}</div>
+                            <div class="mb-3">{{ form.finalizacao_casa.label_tag }} {{ form.finalizacao_casa }}</div>
+                            <div class="mb-3">{{ form.chutes_no_gol_casa.label_tag }} {{ form.chutes_no_gol_casa }}</div>
+                            <div class="mb-3">{{ form.escanteios_casa.label_tag }} {{ form.escanteios_casa }}</div>
+                            <div class="mb-3">{{ form.cartoes_amarelos_casa.label_tag }} {{ form.cartoes_amarelos_casa }}</div>
+                            <div class="mb-3">{{ form.cartoes_vermelhos_casa.label_tag }} {{ form.cartoes_vermelhos_casa }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-header card-header-custom">Time de Fora</div>
+                        <div class="card-body">
+                            <div class="mb-3">{{ form.time_fora.label_tag }} {{ form.time_fora }}</div>
+                            <div class="mb-3">{{ form.placar_fora.label_tag }} {{ form.placar_fora }}</div>
+                            <div class="mb-3">{{ form.finalizacao_fora.label_tag }} {{ form.finalizacao_fora }}</div>
+                            <div class="mb-3">{{ form.chutes_no_gol_fora.label_tag }} {{ form.chutes_no_gol_fora }}</div>
+                            <div class="mb-3">{{ form.escanteios_fora.label_tag }} {{ form.escanteios_fora }}</div>
+                            <div class="mb-3">{{ form.cartoes_amarelos_fora.label_tag }} {{ form.cartoes_amarelos_fora }}</div>
+                            <div class="mb-3">{{ form.cartoes_vermelhos_fora.label_tag }} {{ form.cartoes_vermelhos_fora }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-grid mt-3 mb-5">
+                <button type="submit" class="btn btn-primary btn-lg">Salvar Jogo</button>
+            </div>
+        </form>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ligaSelect = document.getElementById("id_liga");
+            if (ligaSelect) {
+                ligaSelect.addEventListener("change", function() {
+                    const ligaId = this.value;
+                    const url = `/ajax/carregar-times/?liga_id=${ligaId}`;
+                    fetch(url)
+                        .then(response => response.json())
+                        .then(data => {
+                            const timeCasaSelect = document.getElementById("id_time_casa");
+                            const timeForaSelect = document.getElementById("id_time_fora");
+                            timeCasaSelect.innerHTML = '<option value="">---------</option>';
+                            timeForaSelect.innerHTML = '<option value="">---------</option>';
+                            data.forEach(function(time) {
+                                timeCasaSelect.innerHTML += `<option value="${time.id}">${time.nome}</option>`;
+                                timeForaSelect.innerHTML += `<option value="${time.id}">${time.nome}</option>`;
+                            });
+                        });
+                });
+            }
+        });
+    </script>
+</body>
+</html>

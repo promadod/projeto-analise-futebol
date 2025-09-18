@@ -1,0 +1,106 @@
+{% extends 'app_analise/base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-success text-white">
+            <h4>Lançar Nova Aposta</h4>
+        </div>
+        <div class="card-body p-4">
+            <form method="post">
+                {% csrf_token %}
+
+                {% if form.errors %}
+                    <div class="alert alert-danger">
+                        <strong>Por favor, corrija os erros abaixo.</strong>
+                    </div>
+                {% endif %}
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="{{ form.banca.id_for_label }}" class="form-label fw-bold">{{ form.banca.label }}</label>
+                        {{ form.banca }}
+                        {{ form.banca.errors }}
+                    </div>
+                    <div class="col-md-6">
+                        <label for="{{ form.data.id_for_label }}" class="form-label fw-bold">{{ form.data.label }}</label>
+                        {{ form.data }}
+                        {{ form.data.errors }}
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label for="{{ form.evento.id_for_label }}" class="form-label fw-bold">{{ form.evento.label }}</label>
+                        {{ form.evento }}
+                        {{ form.evento.errors }}
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label for="{{ form.mercado.id_for_label }}" class="form-label fw-bold">{{ form.mercado.label }}</label>
+                        {{ form.mercado }}
+                        {{ form.mercado.errors }}
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="{{ form.odd.id_for_label }}" class="form-label fw-bold">{{ form.odd.label }}</label>
+                        {{ form.odd }}
+                        {{ form.odd.errors }}
+                    </div>
+                    <div class="col-md-4">
+                        <label for="{{ form.valor_apostado.id_for_label }}" class="form-label fw-bold">{{ form.valor_apostado.label }}</label>
+                        {{ form.valor_apostado }}
+                        {{ form.valor_apostado.errors }}
+                    </div>
+                    <div class="col-md-4">
+                        <label for="{{ form.resultado.id_for_label }}" class="form-label fw-bold">{{ form.resultado.label }}</label>
+                        {{ form.resultado }}
+                        {{ form.resultado.errors }}
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="form-check">
+                            {{ form.is_multipla }}
+                            <label class="form-check-label" for="{{ form.is_multipla.id_for_label }}">
+                                {{ form.is_multipla.label }}
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-2" id="detalhes-multipla-div" style="display: none;">
+                        <label for="{{ form.detalhes_multipla.id_for_label }}" class="form-label fw-bold">{{ form.detalhes_multipla.label }}</label>
+                        {{ form.detalhes_multipla }}
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="d-flex justify-content-end">
+                    <a href="{% url 'app_analise:gerenciar_bancas' %}" class="btn btn-secondary me-2">Voltar</a>
+                    <button type="submit" class="btn btn-primary">Salvar Aposta</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    const isMultiplaCheckbox = document.getElementById("{{ form.is_multipla.id_for_label }}");
+    const detalhesMultiplaDiv = document.getElementById("detalhes-multipla-div");
+
+    isMultiplaCheckbox.addEventListener('change', function() {
+        if (this.checked) {
+            detalhesMultiplaDiv.style.display = 'block';
+        } else {
+            detalhesMultiplaDiv.style.display = 'none';
+        }
+    });
+</script>
+
+{% endblock %}

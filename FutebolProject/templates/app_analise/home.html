@@ -1,0 +1,200 @@
+{% extends 'app_analise/base.html' %}
+
+{% block content %}
+
+<style>
+    .kpi-card{background-color:#f8f9fa;border:1px solid #e9ecef;border-radius:10px;padding:15px;text-align:center;height:100%}.kpi-title{font-size:.8em;color:#6c757d;text-transform:uppercase;font-weight:700}.kpi-value{font-size:1.7em;font-weight:700}.positive{color:#198754}.negative{color:#dc3545}.kpi-value.positive{color:#20c997}.kpi-value.negative{color:#ff6b81}.card{border:none;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.08);transition:all .3s ease-in-out}.card:not(.kpi-card):hover{transform:translateY(-5px);box-shadow:0 8px 20px rgba(0,0,0,.12)}.card-header{background:linear-gradient(45deg,#28a745,#218838);color:#fff;border-top-left-radius:12px;border-top-right-radius:12px;border-bottom:none; text-align: center;}.card-header h3{text-shadow:1px 1px 2px rgba(0,0,0,.3);font-size:1.2rem}.calendar-grid{border-collapse:separate;border-spacing:5px;width:100%}.calendar-grid td,.calendar-grid th{border:1px solid #eee;padding:5px;width:14.2%;height:120px;text-align:left;vertical-align:top;border-radius:8px;transition:background-color .2s ease}.calendar-grid th{background-color:transparent;text-align:center;height:auto;border:none;font-weight:600}.calendar-grid .day-number{font-size:.9em;color:#555;font-weight:700}.calendar-grid .other-month{background-color:#f8f9fa;opacity:.7}.day-result{padding:10px;border-radius:8px;color:#fff;text-align:center;font-weight:700;cursor:pointer;transition:transform .2s ease}.day-result:hover{transform:scale(1.05)}.day-result.positive{background-color:#28a745;box-shadow:0 2px 5px rgba(40,167,69,.5)}.day-result.negative{background-color:#dc3545;box-shadow:0 2px 5px rgba(220,53,69,.5)}.day-result .percent{font-size:1.2em}.day-result .label{font-size:.7em;text-transform:uppercase}.calendar-grid td:not(.other-month):hover{background-color:#e9ecef}#compare-btn{transition:all .2s ease}#compare-btn:hover{filter:brightness(1.1);transform:scale(1.02)}
+</style>
+
+<div class="container mt-4">
+    
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Dashboard Principal</h1>
+        <div>
+            <a href="{% url 'app_analise:adicionar_jogo' %}" class="btn btn-primary shadow-sm">+ Novo Jogo</a>
+            <a href="/gestao/lancamento/" class="btn btn-success shadow-sm">+ Nova Aposta</a>
+        </div>
+    </div>
+
+    {% if kpis %}
+    <div class="row g-3 mb-4">
+        <div class="col"><div class="kpi-card"><div class="kpi-title">Lucro/Prejuízo</div><div class="kpi-value {% if kpis.lucro_total > 0 %}positive{% else %}negative{% endif %}">R$ {{ kpis.lucro_total|stringformat:".2f" }}</div></div></div>
+        <div class="col"><div class="kpi-card"><div class="kpi-title">Crescimento Banca</div><div class="kpi-value {% if kpis.crescimento_banca > 0 %}positive{% else %}negative{% endif %}">{{ kpis.crescimento_banca|stringformat:".2f" }}%</div></div></div>
+        <div class="col"><div class="kpi-card"><div class="kpi-title">ROI</div><div class="kpi-value {% if kpis.roi > 0 %}positive{% else %}negative{% endif %}">{{ kpis.roi|stringformat:".2f" }}%</div></div></div>
+        <div class="col"><div class="kpi-card"><div class="kpi-title">Taxa de Acerto</div><div class="kpi-value">{{ kpis.taxa_acerto|stringformat:".1f" }}%</div></div></div>
+        <div class="col"><div class="kpi-card"><div class="kpi-title">Odd Média</div><div class="kpi-value">{{ kpis.odd_media|stringformat:".2f" }}</div></div></div>
+    </div>
+    {% endif %}
+    
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <div class="card mb-4">
+                <div class="card-header"><h3> CALENDÁRIO DE RESULTADOS</h3></div>
+                <div class="card-body">
+                    <form method="GET" id="banca-filter-form" class="mb-3">
+                        <label for="banca-select" class="form-label"><strong>Filtrar por Banca:</strong></label>
+                        <select name="banca" id="banca-select" class="form-select">
+                            {% for banca in todas_as_bancas %}
+                                <option value="{{ banca.id }}" {% if banca.id == banca_selecionada.id %}selected{% endif %}>{{ banca.nome }}</option>
+                            {% endfor %}
+                        </select>
+                    </form>
+
+                    {% if banca_selecionada %}
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="{% url 'app_analise:home_mensal' banca_id=banca_selecionada.id year=prev_year month=prev_month %}" class="btn btn-outline-secondary">&laquo;</a>
+                            <h4 class="text-center mb-0">{{ month_name }} / {{ year }}</h4>
+                            {% if not is_future %}
+                                <a href="{% url 'app_analise:home_mensal' banca_id=banca_selecionada.id year=next_year month=next_month %}" class="btn btn-outline-secondary">&raquo;</a>
+                            {% else %}
+                                <a href="#" class="btn btn-outline-secondary disabled">&raquo;</a>
+                            {% endif %}
+                        </div>
+                        <table class="calendar-grid mt-3">
+                            <thead>
+                                <tr><th>Dom</th><th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th></tr>
+                            </thead>
+                            <tbody>
+                                {% for week in month_days %}
+                                <tr>
+                                    {% for day in week %}
+                                        {% if day == 0 %}
+                                            <td class="other-month"></td>
+                                        {% else %}
+                                            <td>
+                                                <div class="day-number">{{ day }}</div>
+                                                {% for result_day, percent in daily_results.items %}
+                                                    {% if result_day == day %}
+                                                        {% if percent > 0 %}<div class="day-result positive"><div class="percent">+{{ percent|stringformat:".2f" }}%</div><div class="label">% Banca</div></div>
+                                                        {% else %}<div class="day-result negative"><div class="percent">{{ percent|stringformat:".2f" }}%</div><div class="label">% Banca</div></div>
+                                                        {% endif %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </td>
+                                        {% endif %}
+                                    {% endfor %}
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    {% else %}
+                        <div class="alert alert-warning">Nenhuma banca ativa encontrada ou selecionada.</div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header"><h3> SEUS PONTOS FORTES</h3></div>
+                <div class="card-body">
+                    <h5>Top 3 Mercados Mais Lucrativos (Geral)</h5>
+                    <ul class="list-group list-group-flush">
+                        {% for mercado in top_mercados %}
+                            <li class="list-group-item d-flex justify-content-between align-items-center">{{ mercado.mercado }}<span class="badge bg-success rounded-pill fs-6">+ R$ {{ mercado.lucro|stringformat:".2f" }}</span></li>
+                        {% empty %}
+                            <li class="list-group-item text-muted">Ainda não há dados suficientes.</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card h-100">
+                <div class="card-header"><h3> ANÁLISE COMPARATIVA</h3></div>
+                <div class="card-body d-flex flex-column">
+                    <div class="row g-2">
+                        <div class="col-12"><label for="liga-select" class="form-label small">1. Filtre por Liga:</label><select id="liga-select" class="form-select"><option selected disabled>Selecione uma Liga</option>{% for liga in todas_as_ligas %}<option value="{{ liga.id }}">{{ liga.nome }}</option>{% endfor %}</select></div>
+                        <div class="col-12"><label for="time-a-select" class="form-label small">2. Escolha o Time A:</label><select id="time-a-select" class="form-select" disabled><option selected>...</option></select></div>
+                        <div class="col-12"><label for="time-b-select" class="form-label small">3. Escolha o Time B:</label><select id="time-b-select" class="form-select" disabled><option selected>...</option></select></div>
+                        <div class="col-12 mt-3"><button id="compare-btn" class="btn btn-primary w-100" disabled>Comparar Times</button></div>
+                    </div>
+                    <div class="mt-3 flex-grow-1" style="position: relative; min-height: 300px;"><canvas id="comparisonChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.getElementById('banca-select').addEventListener('change', function() {
+        const selectedBancaId = this.value;
+        window.location.href = `/dashboard/banca/${selectedBancaId}/`;
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const ligaSelect = document.getElementById('liga-select');
+        const timeASelect = document.getElementById('time-a-select');
+        const timeBSelect = document.getElementById('time-b-select');
+        const compareBtn = document.getElementById('compare-btn');
+        const ctx = document.getElementById('comparisonChart').getContext('2d');
+        let comparisonChart;
+
+        ligaSelect.addEventListener('change', function() {
+            console.log('Liga selecionada. Buscando times...');
+            const ligaId = this.value;
+            timeASelect.innerHTML = '<option selected disabled>Carregando...</option>';
+            timeBSelect.innerHTML = '<option selected disabled>Carregando...</option>';
+            timeASelect.disabled = true;
+            timeBSelect.disabled = true;
+            compareBtn.disabled = true;
+            fetch(`/api/get-times/${ligaId}/`).then(response => response.json()).then(data => {
+                console.log('Times recebidos:', data.times);
+                timeASelect.innerHTML = '<option selected disabled value="">Selecione o Time A</option>';
+                timeBSelect.innerHTML = '<option selected disabled value="">Selecione o Time B</option>';
+                data.times.forEach(function(time) {
+                    timeASelect.add(new Option(time.nome, time.id));
+                    timeBSelect.add(new Option(time.nome, time.id));
+                });
+                timeASelect.disabled = false;
+                timeBSelect.disabled = false;
+            }).catch(error => console.error('ERRO ao buscar times:', error));
+        });
+
+        function checkSelections() {
+            const canCompare = timeASelect.value && timeBSelect.value && timeASelect.value !== '' && timeBSelect.value !== '' && timeASelect.value !== timeBSelect.value;
+            compareBtn.disabled = !canCompare;
+        }
+        timeASelect.addEventListener('change', checkSelections);
+        timeBSelect.addEventListener('change', checkSelections);
+
+        compareBtn.addEventListener('click', function() {
+            const timeAId = timeASelect.value;
+            const timeBId = timeBSelect.value;
+            const promiseA = fetch(`/api/get-team-stats/${timeAId}/`).then(res => res.json());
+            const promiseB = fetch(`/api/get-team-stats/${timeBId}/`).then(res => res.json());
+            Promise.all([promiseA, promiseB]).then(([statsA, statsB]) => {
+                if (comparisonChart) {
+                    comparisonChart.destroy();
+                }
+                comparisonChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Média Gols', 'Média Finalizações', 'Média Chutes no Gol', 'Média Escanteios'],
+                        datasets: [{
+                            label: statsA.nome,
+                            data: [statsA.media_gols_total, statsA.media_finalizacoes_total, statsA.media_chutes_no_gol_total, statsA.media_escanteios_total],
+                            backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                            borderColor: 'rgb(54, 162, 235)',
+                            borderWidth: 1
+                        }, {
+                            label: statsB.nome,
+                            data: [statsB.media_gols_total, statsB.media_finalizacoes_total, statsB.media_chutes_no_gol_total, statsB.media_escanteios_total],
+                            backgroundColor: 'rgba(255, 99, 132, 0.7)',
+                            borderColor: 'rgb(255, 99, 132)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        scales: { y: { beginAtZero: true, title: { display: true, text: 'Média por Jogo' }}},
+                        plugins: { legend: { position: 'top' }, title: { display: true, text: `Comparativo: ${statsA.nome} vs ${statsB.nome}` }}
+                    }
+                });
+            });
+        });
+    });
+</script>
+
+{% endblock %}

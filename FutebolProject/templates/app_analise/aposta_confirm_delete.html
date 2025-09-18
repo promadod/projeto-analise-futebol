@@ -1,0 +1,24 @@
+{% extends 'app_analise/base.html' %}
+{% block title %}Confirmar Deleção{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-danger text-white">
+            <h3>Confirmar Deleção de Aposta</h3>
+        </div>
+        <div class="card-body">
+            <p>Você tem certeza que deseja deletar permanentemente a aposta no evento:</p>
+            <h4 class="text-center my-3">"{{ aposta.evento }}"</h4>
+            
+            <form method="post">
+                {% csrf_token %}
+                <div class="d-flex justify-content-end">
+                    <a href="{% url 'app_analise:dashboard_apostas' %}" class="btn btn-secondary me-2">Cancelar</a>
+                    <button type="submit" class="btn btn-danger">Sim, Deletar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

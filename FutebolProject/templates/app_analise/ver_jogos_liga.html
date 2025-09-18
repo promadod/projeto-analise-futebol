@@ -1,0 +1,82 @@
+{% extends 'app_analise/base.html' %}
+
+{% block content %}
+
+<style>
+    /* Regra para forçar o fundo verde no cabeçalho da tabela */
+    .table > thead > tr.bg-success > th {
+        background-color: inherit;
+    }
+</style>
+
+<div class="container-fluid mt-4">
+    <h1>Jogos Cadastrados em: <span class="text-success" style="text-shadow: 1px 1px 2px #FFFFFF;">{{ liga.nome }}</span></h1>
+    <a href="{% url 'app_analise:gerenciar_ligas' %}" class="btn btn-secondary mb-3">&laquo; Voltar para Gerenciamento</a>
+
+    <div class="card mt-3">
+        <div class="card-body table-responsive">
+            <table class="table table-striped table-hover table-bordered table-sm">
+                <thead class="text-center align-middle">
+                    <tr class="text-white bg-success">
+                        <th rowspan="2">Data</th>
+                        <th rowspan="2">Rodada</th>
+                        <th rowspan="2">Time da Casa</th>
+                        <th rowspan="2">Time de Fora</th>
+                        <th colspan="2">Placar 1T</th>
+                        <th colspan="2">Finalizações 1T</th>
+                        <th colspan="2">Chutes no Gol 1T</th>
+                        <th colspan="2">Escanteios 1T</th>
+                        <th colspan="2">Cartões Amarelos 1T</th>
+                        <th colspan="2" class="table-primary text-dark">Placar Total</th>
+                        <th colspan="2" class="table-primary text-dark">Finalizações Total</th>
+                        <th colspan="2" class="table-primary text-dark">Chutes Gol Total</th>
+                        <th colspan="2" class="table-primary text-dark">Escanteios Total</th>
+                        <th colspan="2" class="table-primary text-dark">Cartões Total</th>
+                    </tr>
+                    <tr class="text-white bg-success">
+                        <th>C</th><th>F</th> <th>C</th><th>F</th> <th>C</th><th>F</th> <th>C</th><th>F</th> <th>C</th><th>F</th> <th class="table-primary text-dark">C</th><th class="table-primary text-dark">F</th>
+                        <th class="table-primary text-dark">C</th><th class="table-primary text-dark">F</th>
+                        <th class="table-primary text-dark">C</th><th class="table-primary text-dark">F</th>
+                        <th class="table-primary text-dark">C</th><th class="table-primary text-dark">F</th>
+                        <th class="table-primary text-dark">C</th><th class="table-primary text-dark">F</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center align-middle">
+                    {% for jogo in jogos_da_liga %}
+                    <tr>
+                        <td>{{ jogo.data|date:"d/m/y" }}</td>
+                        <td>{{ jogo.rodada }}</td>
+                        <td class="text-start">{{ jogo.time_casa.nome }}</td>
+                        <td class="text-start">{{ jogo.time_fora.nome }}</td>
+                        <td>{{ jogo.placar_casa_1t }}</td>
+                        <td>{{ jogo.placar_fora_1t }}</td>
+                        <td>{{ jogo.finalizacao_casa_1t }}</td>
+                        <td>{{ jogo.finalizacao_fora_1t }}</td>
+                        <td>{{ jogo.chutes_no_gol_casa_1t }}</td>
+                        <td>{{ jogo.chutes_no_gol_fora_1t }}</td>
+                        <td>{{ jogo.escanteios_casa_1t }}</td>
+                        <td>{{ jogo.escanteios_fora_1t }}</td>
+                        <td>{{ jogo.cartoes_amarelos_casa_1t }}</td>
+                        <td>{{ jogo.cartoes_amarelos_fora_1t }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.placar_casa_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.placar_fora_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.finalizacao_casa_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.finalizacao_fora_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.chutes_no_gol_casa_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.chutes_no_gol_fora_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.escanteios_casa_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.escanteios_fora_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.cartoes_amarelos_casa_total }}</td>
+                        <td class="fw-bold table-primary">{{ jogo.cartoes_amarelos_fora_total }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="24" class="text-center">Nenhum jogo cadastrado para esta liga ainda.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste do Card Livre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f0f2f5; padding: 2rem; }
+        .probability-bar-container { background-color: #e9ecef; border-radius: 50px; height: 22px; overflow: hidden; }
+        .probability-bar { background-color: #198754; height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8rem; font-weight: bold; transition: width 0.5s ease-in-out; }
+    </style>
+</head>
+<body>
+
+{% if stats_json %}
+    <script id="stats-data" type="application/json">{{ stats_json|safe }}</script>
+
+    <div class="page-title-container mt-5">
+        <h3 class="section-title">Análise Customizada (Over/Under)</h3>
+    </div>
+    <div class="card shadow-sm">
+        <div class="card-body p-4">
+            <div class="row g-3 align-items-end">
+                <div class="col-md-3"><label for="evento-select" class="form-label">Evento:</label><select id="evento-select" class="form-select"><option value="gols">Gols</option><option value="finalizacoes">Finalizações</option><option value="chutes">Chutes no Gol</option><option value="escanteios">Escanteios</option><option value="cartoes">Cartões</option></select></div>
+                <div class="col-md-2"><label for="quantidade-input" class="form-label">Linha (Ex: 0.5):</label><input type="number" step="0.5" id="quantidade-input" class="form-control" value="0.5"></div>
+                <div class="col-md-3"><label for="periodo-select" class="form-label">Período:</label><select id="periodo-select" class="form-select"><option value="_1t">1º Tempo</option><option value="_2t">2º Tempo</option></select></div>
+                <div class="col-md-2"><label for="time-select" class="form-label">Times:</label><select id="time-select" class="form-select"><option value="ambos">Ambos</option><option value="time_a">Time Casa</option><option value="time_b">Time Fora</option></select></div>
+                <div class="col-md-2 d-grid"><button id="calcular-btn" class="btn btn-success">Calcular Probabilidade</button></div>
+            </div>
+            <div id="resultado-livre" class="mt-4" style="display: none;">
+                <div class="d-flex justify-content-between"><span id="resultado-label"></span><strong id="resultado-percent"></strong></div>
+                <div class="probability-bar-container"><div id="resultado-bar" class="probability-bar" style="width: 0%;"></div></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('calcular-btn').addEventListener('click', function(event) {
+            try {
+                const statsData = JSON.parse(document.getElementById('stats-data').textContent);
+                const evento = document.getElementById('evento-select').value;
+                const quantidade = parseFloat(document.getElementById('quantidade-input').value);
+                const periodo = document.getElementById('periodo-select').value;
+                const time = document.getElementById('time-select').value;
+                let potencial = 0;
+                if (evento === 'cartoes') {
+                    if (time === 'ambos') { potencial = statsData.time_a['cartoes_marcados' + periodo] + statsData.time_b['cartoes_marcados' + periodo]; } else { potencial = statsData[time]['cartoes_marcados' + periodo]; }
+                } else {
+                    if (time === 'ambos') { potencial = statsData.time_a[evento + '_marcados' + periodo] + statsData.time_a[evento + '_sofridos' + periodo] + statsData.time_b[evento + '_marcados' + periodo] + statsData.time_b[evento + '_sofridos' + periodo]; } else if (time === 'time_a') { potencial = statsData.time_a[evento + '_marcados' + periodo] + statsData.time_b[evento + '_sofridos' + periodo]; } else { potencial = statsData.time_b[evento + '_marcados' + periodo] + statsData.time_a[evento + '_sofridos' + periodo]; }
+                }
+                let multiplicador = 1;
+                if (evento === 'gols') multiplicador = 25;
+                if (evento === 'finalizacoes') multiplicador = 4;
+                if (evento === 'chutes') multiplicador = 15;
+                if (evento === 'escanteios') multiplicador = 10;
+                if (evento === 'cartoes') multiplicador = 20;
+                let probabilidade = Math.min(98, parseInt(potencial * multiplicador));
+                const eventoLabel = document.getElementById('evento-select').options[document.getElementById('evento-select').selectedIndex].text;
+                document.getElementById('resultado-label').textContent = `Mais de ${quantidade} ${eventoLabel} (${periodo.replace('_','')})`;
+                document.getElementById('resultado-percent').textContent = `${probabilidade}%`;
+                const resultadoBar = document.getElementById('resultado-bar');
+                resultadoBar.style.width = `${probabilidade}%`;
+                resultadoBar.textContent = `${probabilidade}%`;
+                document.getElementById('resultado-livre').style.display = 'block';
+            } catch(e) {
+                console.error("Erro no cálculo do Card Livre:", e);
+                alert("Ocorreu um erro ao calcular. Verifique se todos os dados de média existem para os times selecionados.");
+            }
+        });
+    </script>
+{% else %}
+    <div class="alert alert-danger">Erro: Dados para os times não encontrados. Verifique os IDs na URL.</div>
+{% endif %}
+</body>
+</html>

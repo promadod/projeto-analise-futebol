@@ -1,0 +1,199 @@
+{% extends 'app_analise/base.html' %}
+{% block title %}Comparador de Times{% endblock %}
+
+{% block content %}
+<style>
+    /* ... (seus estilos existentes) ... */
+    .comparison-card {
+        background-color: #fff; border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 100%;
+        overflow: hidden; padding: 0;
+    }
+    .team-header {
+        background-color: var(--cor-principal-verde); color: white;
+        padding: 1rem 1.5rem; 
+        text-align: center;
+    }
+    .team-header h4 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    .card-content { padding: 0; }
+    .comparison-table { margin-bottom: 0; }
+    .comparison-table th { background-color: #f8f9fa; }
+    .comparison-table .stat-name {
+        text-align: left; font-weight: 500; padding-left: 1rem;
+    }
+    .text-conceded { color: #dc3545; }
+    
+    .probability-card { background-color: #f8f9fa; border-left: 5px solid var(--cor-principal-verde); padding: 1.5rem;}
+    .probability-bar-container { background-color: #e9ecef; border-radius: 50px; height: 22px; overflow: hidden; }
+    .probability-bar {
+        background-color: #198754; height: 100%; display: flex;
+        align-items: center; justify-content: center; color: white;
+        font-size: 0.8rem; font-weight: bold; transition: width 0.5s ease-in-out;
+    }
+
+    .page-title-container {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    /* ======================= ESTILOS DOS TÍTULOS ATUALIZADOS ======================= */
+    .section-title {
+        display: inline-block;
+        padding: 0.5rem 2rem;
+        border-radius: 50px;
+        background-color: var(--cor-principal-verde); /* Cor de fundo verde */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        color: white; /* Cor do texto branca */
+    }
+</style>
+
+<div class="page-title-container">
+    <h1 class="section-title">Comparador de Times</h1>
+</div>
+
+<div class="card mb-4 shadow-sm">
+    <div class="card-header card-header-custom">Selecione os Times para Comparar</div>
+    <div class="card-body">
+        <form method="GET" action="{% url 'app_analise:dashboard' %}" class="row g-3 align-items-end">
+            <div class="col-md-5"><label for="time_a" class="form-label">Time da Casa (Time A)</label><select name="time_a" id="time_a" class="form-select"><option value="">Selecione um time...</option>{% for time in todos_os_times %}<option value="{{ time.pk }}" {% if time_a_selecionado_id == time.pk|stringformat:"s" %}selected{% endif %}>{{ time.nome }} ({{ time.liga.nome }})</option>{% endfor %}</select></div>
+            <div class="col-md-5"><label for="time_b" class="form-label">Time Visitante (Time B)</label><select name="time_b" id="time_b" class="form-select"><option value="">Selecione um time...</option>{% for time in todos_os_times %}<option value="{{ time.pk }}" {% if time_b_selecionado_id == time.pk|stringformat:"s" %}selected{% endif %}>{{ time.nome }} ({{ time.liga.nome }})</option>{% endfor %}</select></div>
+            <div class="col-md-2 d-grid"><button type="submit" class="btn btn-success">Comparar</button></div>
+        </form>
+    </div>
+</div>
+
+{% if resultados %}
+    {% if resultados.stats_json %}
+        <script id="stats-data" type="application/json">{{ resultados.stats_json|safe }}</script>
+        
+    {% endif %}
+
+    <div class="row">
+        <div class="col-lg-6 mb-4"><div class="comparison-card"><div class="team-header"><h4>{{ resultados.time_a.time.nome }} <span class="badge bg-light text-dark fs-6 align-middle">Casa</span></h4></div><div class="card-content table-responsive"><table class="table comparison-table text-center table-sm"><thead><tr><th class="stat-name">Estatística</th><th>1º Tempo</th><th>2º Tempo</th><th class="fw-bold">Total</th></tr></thead><tbody><tr><td class="stat-name">Gols Marcados</td><td>{{ resultados.time_a.media_placar_casa_1t|floatformat:2 }}</td><td>{{ resultados.time_a.media_placar_casa_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_a.media_placar_casa_total|floatformat:2 }}</td></tr><tr><td class="stat-name text-conceded">Gols Sofridos</td><td class="text-conceded">{{ resultados.medias_sofridas_a.gols_1t|floatformat:2 }}</td><td class="text-conceded">{{ resultados.medias_sofridas_a.gols_2t|floatformat:2 }}</td><td class="fw-bold text-conceded">{{ resultados.medias_sofridas_a.gols_total|floatformat:2 }}</td></tr><tr><td class="stat-name">Finalizações</td><td>{{ resultados.time_a.media_finalizacao_casa_1t|floatformat:2 }}</td><td>{{ resultados.time_a.media_finalizacao_casa_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_a.media_finalizacao_casa_total|floatformat:2 }}</td></tr><tr><td class="stat-name">Chutes no Gol</td><td>{{ resultados.time_a.media_chutes_no_gol_casa_1t|floatformat:2 }}</td><td>{{ resultados.time_a.media_chutes_no_gol_casa_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_a.media_chutes_no_gol_casa_total|floatformat:2 }}</td></tr><tr><td class="stat-name">Escanteios</td><td>{{ resultados.time_a.media_escanteios_casa_1t|floatformat:2 }}</td><td>{{ resultados.time_a.media_escanteios_casa_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_a.media_escanteios_casa_total|floatformat:2 }}</td></tr><tr><td class="stat-name">Cartões</td><td>{{ resultados.time_a.media_cartoes_amarelos_casa_1t|floatformat:2 }}</td><td>{{ resultados.time_a.media_cartoes_amarelos_casa_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_a.media_cartoes_amarelos_casa_total|floatformat:2 }}</td></tr></tbody></table></div></div></div>
+        <div class="col-lg-6 mb-4"><div class="comparison-card"><div class="team-header"><h4>{{ resultados.time_b.time.nome }} <span class="badge bg-dark text-white fs-6 align-middle">Fora</span></h4></div><div class="card-content table-responsive"><table class="table comparison-table text-center table-sm"><thead><tr><th class="stat-name">Estatística</th><th>1º Tempo</th><th>2º Tempo</th><th class="fw-bold">Total</th></tr></thead><tbody><tr><td class="stat-name">Gols Marcados</td><td>{{ resultados.time_b.media_placar_fora_1t|floatformat:2 }}</td><td>{{ resultados.time_b.media_placar_fora_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_b.media_placar_fora_total|floatformat:2 }}</td></tr><tr><td class="stat-name text-conceded">Gols Sofridos</td><td class="text-conceded">{{ resultados.medias_sofridas_b.gols_1t|floatformat:2 }}</td><td class="text-conceded">{{ resultados.medias_sofridas_b.gols_2t|floatformat:2 }}</td><td class="fw-bold text-conceded">{{ resultados.medias_sofridas_b.gols_total|floatformat:2 }}</td></tr><tr><td class="stat-name">Finalizações</td><td>{{ resultados.time_b.media_finalizacao_fora_1t|floatformat:2 }}</td><td>{{ resultados.time_b.media_finalizacao_fora_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_b.media_finalizacao_fora_total|floatformat:2 }}</td></tr><tr><td class="stat-name">Chutes no Gol</td><td>{{ resultados.time_b.media_chutes_no_gol_fora_1t|floatformat:2 }}</td><td>{{ resultados.time_b.media_chutes_no_gol_fora_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_b.media_chutes_no_gol_fora_total|floatformat:2 }}</td></tr><tr><td class="stat-name">Escanteios</td><td>{{ resultados.time_b.media_escanteios_fora_1t|floatformat:2 }}</td><td>{{ resultados.time_b.media_escanteios_fora_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_b.media_escanteios_fora_total|floatformat:2 }}</td></tr><tr><td class="stat-name">Cartões</td><td>{{ resultados.time_b.media_cartoes_amarelos_fora_1t|floatformat:2 }}</td><td>{{ resultados.time_b.media_cartoes_amarelos_fora_2t|floatformat:2 }}</td><td class="fw-bold">{{ resultados.time_b.media_cartoes_amarelos_fora_total|floatformat:2 }}</td></tr></tbody></table></div></div></div>
+    </div>
+
+    <div class="page-title-container"><h3 class="section-title">Painel de Probabilidades</h3></div>
+    <div class="row">
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Gols (Lógica 4 Fatores)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 0.5 Gols</span> <strong>{{ resultados.probabilidades_4f.over_0_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_4f.over_0_5 }}%;"><span>{{ resultados.probabilidades_4f.over_0_5 }}%</span></div></div></div><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 1.5 Gols</span> <strong>{{ resultados.probabilidades_4f.over_1_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_4f.over_1_5 }}%;"><span>{{ resultados.probabilidades_4f.over_1_5 }}%</span></div></div></div><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 2.5 Gols</span> <strong>{{ resultados.probabilidades_4f.over_2_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_4f.over_2_5 }}%;"><span>{{ resultados.probabilidades_4f.over_2_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Ambos Marcam (Sim)</span> <strong>{{ resultados.probabilidades_4f.btts_sim }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_4f.btts_sim }}%;"><span>{{ resultados.probabilidades_4f.btts_sim }}%</span></div></div></div></div></div></div>
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Gols (Lógica xG)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 0.5 Gols (xG)</span> <strong>{{ resultados.probabilidades_xg.over_0_5_gols }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_xg.over_0_5_gols }}%;"><span>{{ resultados.probabilidades_xg.over_0_5_gols }}%</span></div></div></div><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 1.5 Gols (xG)</span> <strong>{{ resultados.probabilidades_xg.over_1_5_gols }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_xg.over_1_5_gols }}%;"><span>{{ resultados.probabilidades_xg.over_1_5_gols }}%</span></div></div></div><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 2.5 Gols (xG)</span> <strong>{{ resultados.probabilidades_xg.over_2_5_gols }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_xg.over_2_5_gols }}%;"><span>{{ resultados.probabilidades_xg.over_2_5_gols }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Ambos Marcam (xG)</span> <strong>{{ resultados.probabilidades_xg.btts_sim }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_xg.btts_sim }}%;"><span>{{ resultados.probabilidades_xg.btts_sim }}%</span></div></div></div></div></div></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Finalizações e Chutes</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 22.5 Finalizações</span> <strong>{{ resultados.probabilidades_mercados_simples.over_22_5_finalizacoes }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_mercados_simples.over_22_5_finalizacoes }}%;"><span>{{ resultados.probabilidades_mercados_simples.over_22_5_finalizacoes }}%</span></div></div></div><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 24.5 Finalizações</span> <strong>{{ resultados.probabilidades_mercados_simples.over_24_5_finalizacoes }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_mercados_simples.over_24_5_finalizacoes }}%;"><span>{{ resultados.probabilidades_mercados_simples.over_24_5_finalizacoes }}%</span></div></div></div><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 7.5 Chutes no Gol</span> <strong>{{ resultados.probabilidades_mercados_simples.over_7_5_chutes }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_mercados_simples.over_7_5_chutes }}%;"><span>{{ resultados.probabilidades_mercados_simples.over_7_5_chutes }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 8.5 Chutes no Gol</span> <strong>{{ resultados.probabilidades_mercados_simples.over_8_5_chutes }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_mercados_simples.over_8_5_chutes }}%;"><span>{{ resultados.probabilidades_mercados_simples.over_8_5_chutes }}%</span></div></div></div></div></div></div>
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Escanteios e Cartões</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 8.5 Escanteios</span> <strong>{{ resultados.probabilidades_mercados_simples.over_8_5_escanteios }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_mercados_simples.over_8_5_escanteios }}%;"><span>{{ resultados.probabilidades_mercados_simples.over_8_5_escanteios }}%</span></div></div></div><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 9.5 Escanteios</span> <strong>{{ resultados.probabilidades_mercados_simples.over_9_5_escanteios }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_mercados_simples.over_9_5_escanteios }}%;"><span>{{ resultados.probabilidades_mercados_simples.over_9_5_escanteios }}%</span></div></div></div><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 3.5 Cartões</span> <strong>{{ resultados.probabilidades_mercados_simples.over_3_5_cartoes }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_mercados_simples.over_3_5_cartoes }}%;"><span>{{ resultados.probabilidades_mercados_simples.over_3_5_cartoes }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 4.5 Cartões</span> <strong>{{ resultados.probabilidades_mercados_simples.over_4_5_cartoes }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.probabilidades_mercados_simples.over_4_5_cartoes }}%;"><span>{{ resultados.probabilidades_mercados_simples.over_4_5_cartoes }}%</span></div></div></div></div></div></div>
+    </div>
+
+    <div class="page-title-container mt-5"><h3 class="section-title">Painel de Probabilidades (Por Tempo)</h3></div>
+    <div class="row">
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Gols (1º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 0.5 Gols (1T)</span> <strong>{{ resultados.prob_gols_1T.over_0_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_gols_1T.over_0_5 }}%;"><span>{{ resultados.prob_gols_1T.over_0_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 1.5 Gols (1T)</span> <strong>{{ resultados.prob_gols_1T.over_1_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_gols_1T.over_1_5 }}%;"><span>{{ resultados.prob_gols_1T.over_1_5 }}%</span></div></div></div></div></div></div>
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Gols (2º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 0.5 Gols (2T)</span> <strong>{{ resultados.prob_gols_2T.over_0_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_gols_2T.over_0_5 }}%;"><span>{{ resultados.prob_gols_2T.over_0_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 1.5 Gols (2T)</span> <strong>{{ resultados.prob_gols_2T.over_1_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_gols_2T.over_1_5 }}%;"><span>{{ resultados.prob_gols_2T.over_1_5 }}%</span></div></div></div></div></div></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Finalizações (1º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 4.5 Finalizações (1T)</span> <strong>{{ resultados.prob_finalizacoes_1T.over_4_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_finalizacoes_1T.over_4_5 }}%;"><span>{{ resultados.prob_finalizacoes_1T.over_4_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 5.5 Finalizações (1T)</span> <strong>{{ resultados.prob_finalizacoes_1T.over_5_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_finalizacoes_1T.over_5_5 }}%;"><span>{{ resultados.prob_finalizacoes_1T.over_5_5 }}%</span></div></div></div></div></div></div>
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Finalizações (2º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 5.5 Finalizações (2T)</span> <strong>{{ resultados.prob_finalizacoes_2T.over_5_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_finalizacoes_2T.over_5_5 }}%;"><span>{{ resultados.prob_finalizacoes_2T.over_5_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 6.5 Finalizações (2T)</span> <strong>{{ resultados.prob_finalizacoes_2T.over_6_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_finalizacoes_2T.over_6_5 }}%;"><span>{{ resultados.prob_finalizacoes_2T.over_6_5 }}%</span></div></div></div></div></div></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Chutes no Gol (1º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 1.5 Chutes no Gol (1T)</span> <strong>{{ resultados.prob_chutes_1T.over_1_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_chutes_1T.over_1_5 }}%;"><span>{{ resultados.prob_chutes_1T.over_1_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 2.5 Chutes no Gol (1T)</span> <strong>{{ resultados.prob_chutes_1T.over_2_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_chutes_1T.over_2_5 }}%;"><span>{{ resultados.prob_chutes_1T.over_2_5 }}%</span></div></div></div></div></div></div>
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Chutes no Gol (2º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 2.5 Chutes no Gol (2T)</span> <strong>{{ resultados.prob_chutes_2T.over_2_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_chutes_2T.over_2_5 }}%;"><span>{{ resultados.prob_chutes_2T.over_2_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 3.5 Chutes no Gol (2T)</span> <strong>{{ resultados.prob_chutes_2T.over_3_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_chutes_2T.over_3_5 }}%;"><span>{{ resultados.prob_chutes_2T.over_3_5 }}%</span></div></div></div></div></div></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Escanteios (1º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 3.5 Escanteios (1T)</span> <strong>{{ resultados.prob_escanteios_1T.over_3_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_escanteios_1T.over_3_5 }}%;"><span>{{ resultados.prob_escanteios_1T.over_3_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 4.5 Escanteios (1T)</span> <strong>{{ resultados.prob_escanteios_1T.over_4_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_escanteios_1T.over_4_5 }}%;"><span>{{ resultados.prob_escanteios_1T.over_4_5 }}%</span></div></div></div></div></div></div>
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Escanteios (2º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 4.5 Escanteios (2T)</span> <strong>{{ resultados.prob_escanteios_2T.over_4_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_escanteios_2T.over_4_5 }}%;"><span>{{ resultados.prob_escanteios_2T.over_4_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 5.5 Escanteios (2T)</span> <strong>{{ resultados.prob_escanteios_2T.over_5_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_escanteios_2T.over_5_5 }}%;"><span>{{ resultados.prob_escanteios_2T.over_5_5 }}%</span></div></div></div></div></div></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Cartões (1º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 1.5 Cartões (1T)</span> <strong>{{ resultados.prob_cartoes_1T.over_1_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_cartoes_1T.over_1_5 }}%;"><span>{{ resultados.prob_cartoes_1T.over_1_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 2.5 Cartões (1T)</span> <strong>{{ resultados.prob_cartoes_1T.over_2_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_cartoes_1T.over_2_5 }}%;"><span>{{ resultados.prob_cartoes_1T.over_2_5 }}%</span></div></div></div></div></div></div>
+        <div class="col-lg-6 mb-4"><div class="comparison-card probability-card"><h5 class="team-header">Cartões (2º Tempo)</h5><div class="card-body"><div class="mb-3"><div class="d-flex justify-content-between"><span>Mais de 1.5 Cartões (2T)</span> <strong>{{ resultados.prob_cartoes_2T.over_1_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_cartoes_2T.over_1_5 }}%;"><span>{{ resultados.prob_cartoes_2T.over_1_5 }}%</span></div></div></div><div><div class="d-flex justify-content-between"><span>Mais de 2.5 Cartões (2T)</span> <strong>{{ resultados.prob_cartoes_2T.over_2_5 }}%</strong></div><div class="probability-bar-container"><div class="probability-bar" style="width: {{ resultados.prob_cartoes_2T.over_2_5 }}%;"><span>{{ resultados.prob_cartoes_2T.over_2_5 }}%</span></div></div></div></div></div></div>
+    </div>
+
+{% if resultados.stats_json %}
+    
+{% endif %}
+
+
+    <div class="page-title-container mt-5">
+    <h3 class="section-title">Análise Customizada (Over/Under)</h3>
+</div>
+<div class="card shadow-sm">
+    <div class="card-body p-4">
+        <div class="row g-3 align-items-end">
+            <div class="col-md-2"><label for="id-casa-input" class="form-label">ID Time Casa:</label><input type="number" id="id-casa-input" class="form-control"></div>
+            <div class="col-md-2"><label for="id-fora-input" class="form-label">ID Time Fora:</label><input type="number" id="id-fora-input" class="form-control"></div>
+            
+            <div class="col-md-2"><label for="evento-select" class="form-label">Evento:</label><select id="evento-select" class="form-select"><option value="gols">Gols</option><option value="finalizacoes">Finalizações</option><option value="chutes">Chutes no Gol</option><option value="escanteios">Escanteios</option><option value="cartoes">Cartões</option></select></div>
+            <div class="col-md-2"><label for="quantidade-input" class="form-label">Linha:</label><input type="number" step="0.5" id="quantidade-input" class="form-control" value="0.5"></div>
+            <div class="col-md-2"><label for="periodo-select" class="form-label">Período:</label><select id="periodo-select" class="form-select"><option value="_1t">1º Tempo</option><option value="_2t">2º Tempo</option></select></div>
+            <div class="col-md-2"><label for="time-select" class="form-label">Times:</label><select id="time-select" class="form-select"><option value="ambos">Ambos</option><option value="time_a">Time Casa</option><option value="time_b">Time Fora</option></select></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 d-grid">
+                <button id="calcular-btn-custom" class="btn btn-success">Calcular Probabilidade</button>
+            </div>
+        </div>
+        
+        <div id="resultado-livre" class="mt-4" style="display: none;">
+            <div class="d-flex justify-content-between"><span id="resultado-label"></span><strong id="resultado-percent"></strong></div>
+            <div class="probability-bar-container"><div id="resultado-bar" class="probability-bar" style="width: 0%;"></div></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('calcular-btn-custom').addEventListener('click', function() {
+        const timeAId = document.getElementById('id-casa-input').value;
+        const timeBId = document.getElementById('id-fora-input').value;
+
+        if (!timeAId || !timeBId) {
+            alert("Por favor, insira os IDs dos dois times.");
+            return;
+        }
+
+        // 1. Busca os dados na nova API
+        fetch(`/api/get-custom-stats/${timeAId}/${timeBId}/`)
+            .then(response => {
+                if (!response.ok) { throw new Error('Time não encontrado. Verifique os IDs.'); }
+                return response.json();
+            })
+            .then(statsData => {
+                // 2. O resto do cálculo é o mesmo que já funcionava!
+                const evento = document.getElementById('evento-select').value;
+                let quantidade = parseFloat(document.getElementById('quantidade-input').value);
+                if (Number.isInteger(quantidade)) {
+                    quantidade += 0.5;
+                }
+                const periodo = document.getElementById('periodo-select').value;
+                const time = document.getElementById('time-select').value;
+                let potencial = 0;
+                if (evento === 'cartoes') {
+                    if (time === 'ambos') { potencial = statsData.time_a['cartoes_marcados' + periodo] + statsData.time_b['cartoes_marcados' + periodo]; } else { potencial = statsData[time]['cartoes_marcados' + periodo]; }
+                } else {
+                    if (time === 'ambos') { potencial = statsData.time_a[evento + '_marcados' + periodo] + statsData.time_a[evento + '_sofridos' + periodo] + statsData.time_b[evento + '_marcados' + periodo] + statsData.time_b[evento + '_sofridos' + periodo]; } else if (time === 'time_a') { potencial = statsData.time_a[evento + '_marcados' + periodo] + statsData.time_b[evento + '_sofridos' + periodo]; } else { potencial = statsData.time_b[evento + '_marcados' + periodo] + statsData.time_a[evento + '_sofridos' + periodo]; }
+                }
+                let multiplicador = 1;
+                if (evento === 'gols') multiplicador = 25;
+                if (evento === 'finalizacoes') multiplicador = 5;
+                if (evento === 'chutes') multiplicador = 12;
+                if (evento === 'escanteios') multiplicador = 8;
+                if (evento === 'cartoes') multiplicador = 20;
+                let probabilidade = Math.min(98, parseInt((potencial * multiplicador) / (quantidade + 1)));
+                const eventoLabel = document.getElementById('evento-select').options[document.getElementById('evento-select').selectedIndex].text;
+                document.getElementById('resultado-label').textContent = `Mais de ${quantidade} ${eventoLabel} (${periodo.replace('_','')})`;
+                document.getElementById('resultado-percent').textContent = `${probabilidade}%`;
+                const resultadoBar = document.getElementById('resultado-bar');
+                resultadoBar.style.width = `${probabilidade}%`;
+                resultadoBar.textContent = `${probabilidade}%`;
+                document.getElementById('resultado-livre').style.display = 'block';
+            })
+            .catch(error => {
+                console.error("Erro na Análise Customizada:", error);
+                alert(error.message);
+            });
+    });
+</script>
+    
+{% elif erro %}
+    <div class="alert alert-warning">{{ erro }}</div>
+{% endif %}
+{% endblock %}
+

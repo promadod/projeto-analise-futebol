@@ -1,0 +1,33 @@
+{% extends 'app_analise/base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Gerenciar Ligas e Times</h1>
+        <div>
+            <a href="{% url 'app_analise:adicionar_liga' %}" class="btn btn-success">+ Nova Liga</a>
+            <a href="{% url 'app_analise:adicionar_jogo' %}" class="btn btn-primary">+ Novo Jogo</a>
+        </div>
+    </div>
+
+    <p>Abaixo, veja as ligas cadastradas. Clique em uma para ver os jogos ou adicionar times.</p>
+
+    <div class="list-group">
+        {% for liga in todas_as_ligas %}
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <strong>{{ liga.nome }}</strong>
+                <div>
+                    <a href="{% url 'app_analise:ver_jogos_liga' liga_id=liga.id %}" class="btn btn-info btn-sm">Ver Jogos</a>
+                    <a href="{% url 'app_analise:adicionar_time' liga_id=liga.id %}" class="btn btn-secondary btn-sm">Adicionar/Ver Times</a>
+                </div>
+            </div>
+        {% empty %}
+            <div class="alert alert-warning">
+                Nenhuma liga cadastrada ainda. Comece clicando em "+ Nova Liga" acima.
+            </div>
+        {% endfor %}
+    </div>
+
+</div>
+{% endblock %}

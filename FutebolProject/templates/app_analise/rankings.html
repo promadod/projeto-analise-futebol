@@ -1,0 +1,143 @@
+{% extends 'app_analise/base.html' %}
+{% load static %}
+
+{% block title %}Destaques da Liga{% endblock %}
+
+{% block content %}
+<style>
+    .page-title-container { text-align: center; margin-bottom: 1.5rem; }
+    .section-title { display: inline-block; padding: 0.5rem 2rem; border-radius: 50px; background-color: var(--cor-principal-verde); box-shadow: 0 2px 4px rgba(0,0,0,0.1); color: white; }
+    .filters-card { background-color: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 1.5rem; margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto; }
+    
+    #rankings-grid { 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 1rem; 
+    }
+    .ranking-card { 
+        background-color: #fff; 
+        border-radius: 8px; 
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07); 
+        padding: 0.75rem; 
+        text-align: center; 
+    }
+    
+    /* --- NOVAS CLASSES DE COR --- */
+    /* Remove a borda padrão e adiciona as novas classes */
+    .ranking-card.is-positive { border-left: 5px solid var(--cor-principal-verde); } /* Verde para 'mais' */
+    .ranking-card.is-negative { border-left: 5px solid #dc3545; } /* Vermelho para 'menos' */
+    /* --- FIM DAS NOVAS CLASSES --- */
+
+    .ranking-card .card-title { font-size: 0.9rem; font-weight: bold; color: #343a40; min-height: 40px; }
+    .ranking-card .team-info { display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-top: 0.5rem; }
+    .ranking-card .team-info h5 { margin: 0; font-size: 1rem; }
+    .ranking-card .stat-value { font-size: 1.75rem; font-weight: bold; margin: 0.5rem 0; }
+    
+    /* Colore o número também */
+    .ranking-card.is-positive .stat-value { color: var(--cor-principal-verde); }
+    .ranking-card.is-negative .stat-value { color: #dc3545; }
+
+    .ranking-card .stat-label { font-size: 0.8rem; color: #6c757d; }
+    #loading-spinner { display: none; text-align: center; padding: 2rem; }
+</style>
+
+<div class="page-title-container">
+    <h1 class="section-title">Painel de Destaques da Liga</h1>
+</div>
+
+<div class="card filters-card">
+    <label for="liga-select" class="form-label fw-bold">Selecione uma Liga para ver os Destaques</label>
+    <select id="liga-select" class="form-select">
+        <option value="">Carregando ligas...</option>
+    </select>
+</div>
+
+<div id="loading-spinner">
+    <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <p class="mt-2">Buscando destaques...</p>
+</div>
+
+<div id="rankings-grid">
+    </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const LIGAS_API_URL = "{% url 'app_analise:api_listar_ligas' %}";
+    const RANKINGS_API_URL = "{% url 'app_analise:api_buscar_rankings' %}";
+
+    const ligaSelect = document.getElementById('liga-select');
+    const rankingsGrid = document.getElementById('rankings-grid');
+    const loadingSpinner = document.getElementById('loading-spinner');
+
+    async function fetchLigas() {
+        // (Esta função continua igual, está perfeita)
+        try {
+            const response = await fetch(LIGAS_API_URL);
+            const ligas = await response.json();
+            ligaSelect.innerHTML = '<option value="">Selecione uma liga</option>';
+            ligas.forEach(liga => {
+                const option = new Option(liga.nome, liga.id);
+                ligaSelect.add(option);
+            });
+        } catch (error) {
+            console.error('Erro ao buscar ligas:', error);
+            ligaSelect.innerHTML = '<option value="">Erro ao carregar</option>';
+        }
+    }
+
+    async function fetchDestaques() {
+        const ligaId = ligaSelect.value;
+        if (!ligaId) {
+            rankingsGrid.innerHTML = '<div class="alert alert-info">Por favor, selecione uma liga para ver os destaques.</div>';
+            return;
+        }
+
+        loadingSpinner.style.display = 'block';
+        rankingsGrid.innerHTML = '';
+
+        try {
+            const response = await fetch(`${RANKINGS_API_URL}?liga_id=${ligaId}`);
+            const data = await response.json();
+
+            if (data.length === 0) {
+                rankingsGrid.innerHTML = '<div class="alert alert-warning">Nenhum destaque encontrado para esta liga.</div>';
+            } else {
+data.forEach(destaque => {
+    // Define a classe do card com base na informação 'ordem' vinda da API
+    const cardClass = destaque.ordem === 'asc' ? 'is-negative' : 'is-positive';
+    
+    // Deixamos a parte da imagem comentada por enquanto
+    const imgHTML = ''; // destaque.escudo_url ? `<img src="${destaque.escudo_url}" alt="Escudo">` : '';
+
+    const cardHTML = `
+        <div class="ranking-card ${cardClass}">
+            <h6 class="card-title">${destaque.titulo}</h6>
+            <div class="team-info">
+                ${imgHTML}
+                <h5>${destaque.time_nome}</h5>
+            </div>
+            <p class="stat-value">${destaque.media_estatistica.toFixed(2)}</p>
+            <p class="stat-label">de média</p>
+        </div>
+    `;
+    rankingsGrid.insertAdjacentHTML('beforeend', cardHTML);
+ });
+            }
+        } catch (error) {
+            console.error('Erro ao buscar destaques:', error);
+            rankingsGrid.innerHTML = '<div class="alert alert-danger">Ocorreu um erro ao buscar os dados.</div>';
+        } finally {
+            loadingSpinner.style.display = 'none';
+        }
+    }
+
+    // Adiciona o "ouvinte" APENAS ao seletor de liga
+    ligaSelect.addEventListener('change', fetchDestaques);
+
+    // Carga inicial
+    fetchLigas();
+});
+</script>
+{% endblock %}

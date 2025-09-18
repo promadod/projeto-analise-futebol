@@ -1,0 +1,17 @@
+# Ambientes Virtuais
+venv/
+.venv/
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+
+# Banco de Dados SQLite
+*.sqlite3
+dados_futebol.db
+
+# Arquivos de Configuração Sensíveis (se você tiver)
+.env
+
+# Arquivos do VS Code
+.vscode/
