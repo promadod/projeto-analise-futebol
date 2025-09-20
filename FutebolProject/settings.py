@@ -72,15 +72,17 @@ TEMPLATES = [
 WSGI_APPLICATION = 'FutebolProject.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'dados_futebol.db',
-    }
+  'default': {
+      'ENGINE': 'django.db.backends.sqlite3',
+      'NAME': BASE_DIR / 'dados_futebol.db',
+  }
 }
+
+
+
 
 
 # Password validation
