@@ -15,7 +15,7 @@
 "    ""groups"": [],"
 "    ""user_permissions"": []"
   }
-},
+}
 {
 "  ""model"": ""auth.user"","
 "  ""fields"": {"
@@ -32,7 +32,7 @@
 "    ""groups"": [],"
 "    ""user_permissions"": []"
   }
-},
+}
 {
 "  ""model"": ""sessions.session"","
 "  ""pk"": ""ppx66g4vvcv9yooe355gbl2skgdf3exy"","
@@ -40,70 +40,70 @@
 "    ""session_data"": "".eJxVjMsOwiAQRf-FtSGAPIJL934DGZgZqRpISrsy_rtt0oVu7znnvkWCdalpHTSnCcVFaHH63TKUJ7Ud4APavcvS2zJPWe6KPOiQt470uh7u30GFUbeaKDA6XbRyxgUG5cDqEsFz8R7ZktfurFQM7G0GEyJHTWiUMVtoSxSfL-kzN9c:1uyDQE:ALgW6lp6OGb7kF5gKelhkWgUg9uPQgQuhpM723asrmM"","
 "    ""expire_date"": ""2025-09-29T17:55:26.677Z"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 1,"
 "  ""fields"": {"
 "    ""nome"": ""Brasileirao_Serie_A_2025"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 2,"
 "  ""fields"": {"
 "    ""nome"": ""Brasileirao_serie_B"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 3,"
 "  ""fields"": {"
 "    ""nome"": ""Premier_League"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 4,"
 "  ""fields"": {"
 "    ""nome"": ""LaLiga"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 5,"
 "  ""fields"": {"
 "    ""nome"": ""ITALIANO_SERIE_A"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 6,"
 "  ""fields"": {"
 "    ""nome"": ""Liga Saudita"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 7,"
 "  ""fields"": {"
 "    ""nome"": ""Liga 1 Franca"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 8,"
 "  ""fields"": {"
 "    ""nome"": ""Liga de Portugal"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.liga"","
 "  ""pk"": 9,"
 "  ""fields"": {"
 "    ""nome"": ""Bundesliga Alemanha"""
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 1,"
@@ -111,7 +111,7 @@
 "    ""nome"": ""internacional"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 2,"
@@ -119,7 +119,7 @@
 "    ""nome"": ""Parma"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 3,"
@@ -127,7 +127,7 @@
 "    ""nome"": ""palmeiras"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 4,"
@@ -135,7 +135,7 @@
 "    ""nome"": ""Real-Madrid"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 5,"
@@ -143,7 +143,7 @@
 "    ""nome"": ""fortaleza"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 6,"
@@ -151,7 +151,7 @@
 "    ""nome"": ""Manchester-City"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 7,"
@@ -159,7 +159,7 @@
 "    ""nome"": ""Udinese"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 8,"
@@ -167,7 +167,7 @@
 "    ""nome"": ""criciuma"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 9,"
@@ -175,7 +175,7 @@
 "    ""nome"": ""AC-Milan"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 10,"
@@ -183,7 +183,7 @@
 "    ""nome"": ""juventude"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 11,"
@@ -191,7 +191,7 @@
 "    ""nome"": ""Lecce"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 12,"
@@ -199,7 +199,7 @@
 "    ""nome"": ""Ath-Bilbao"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 13,"
@@ -207,7 +207,7 @@
 "    ""nome"": ""america-mg"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 14,"
@@ -215,7 +215,7 @@
 "    ""nome"": ""crb"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 15,"
@@ -223,7 +223,7 @@
 "    ""nome"": ""flamengo"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 16,"
@@ -231,7 +231,7 @@
 "    ""nome"": ""Barcelona"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 17,"
@@ -239,7 +239,7 @@
 "    ""nome"": ""Bologna"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 18,"
@@ -247,7 +247,7 @@
 "    ""nome"": ""paysandu"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 19,"
@@ -255,7 +255,7 @@
 "    ""nome"": ""Fiorentina"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 20,"
@@ -263,7 +263,7 @@
 "    ""nome"": ""Fulham"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 21,"
@@ -271,7 +271,7 @@
 "    ""nome"": ""Getafe"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 22,"
@@ -279,7 +279,7 @@
 "    ""nome"": ""Genoa"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 23,"
@@ -287,7 +287,7 @@
 "    ""nome"": ""Aston-Villa"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 24,"
@@ -295,7 +295,7 @@
 "    ""nome"": ""Brentford"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 25,"
@@ -303,7 +303,7 @@
 "    ""nome"": ""Atalanta"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 26,"
@@ -311,7 +311,7 @@
 "    ""nome"": ""atletico-pr"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 27,"
@@ -319,7 +319,7 @@
 "    ""nome"": ""Betis"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 28,"
@@ -327,7 +327,7 @@
 "    ""nome"": ""athletic-club"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 29,"
@@ -335,7 +335,7 @@
 "    ""nome"": ""bahia"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 30,"
@@ -343,7 +343,7 @@
 "    ""nome"": ""Oviedo"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 31,"
@@ -351,7 +351,7 @@
 "    ""nome"": ""Espanyol"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 32,"
@@ -359,7 +359,7 @@
 "    ""nome"": ""Brighton"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 33,"
@@ -367,7 +367,7 @@
 "    ""nome"": ""fluminense"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 34,"
@@ -375,7 +375,7 @@
 "    ""nome"": ""atletico mg"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 35,"
@@ -383,7 +383,7 @@
 "    ""nome"": ""sπo paulo"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 36,"
@@ -391,7 +391,7 @@
 "    ""nome"": ""Sunderland"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 37,"
@@ -399,7 +399,7 @@
 "    ""nome"": ""Burnley"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 38,"
@@ -407,7 +407,7 @@
 "    ""nome"": ""Wolverhampton"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 39,"
@@ -415,7 +415,7 @@
 "    ""nome"": ""botafogo-sp"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 40,"
@@ -423,7 +423,7 @@
 "    ""nome"": ""Crystal-Palace"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 41,"
@@ -431,7 +431,7 @@
 "    ""nome"": ""Leeds"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 42,"
@@ -439,7 +439,7 @@
 "    ""nome"": ""Alaves"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 43,"
@@ -447,7 +447,7 @@
 "    ""nome"": ""gremio "","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 44,"
@@ -455,7 +455,7 @@
 "    ""nome"": ""Real-Sociedad"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 45,"
@@ -463,7 +463,7 @@
 "    ""nome"": ""Elche"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 46,"
@@ -471,7 +471,7 @@
 "    ""nome"": ""volta-redonda"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 47,"
@@ -479,7 +479,7 @@
 "    ""nome"": ""Como"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 48,"
@@ -487,7 +487,7 @@
 "    ""nome"": ""amazonas"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 49,"
@@ -495,7 +495,7 @@
 "    ""nome"": ""Sevilla"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 50,"
@@ -503,7 +503,7 @@
 "    ""nome"": ""mirasol"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 51,"
@@ -511,7 +511,7 @@
 "    ""nome"": ""vila-nova"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 52,"
@@ -519,7 +519,7 @@
 "    ""nome"": ""Liverpool"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 53,"
@@ -527,7 +527,7 @@
 "    ""nome"": ""ceara"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 54,"
@@ -535,7 +535,7 @@
 "    ""nome"": ""atletico-go"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 55,"
@@ -543,7 +543,7 @@
 "    ""nome"": ""Cagliari"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 56,"
@@ -551,7 +551,7 @@
 "    ""nome"": ""Rayo-Vallecano"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 57,"
@@ -559,7 +559,7 @@
 "    ""nome"": ""ferroviaria"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 58,"
@@ -567,7 +567,7 @@
 "    ""nome"": ""Valencia"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 59,"
@@ -575,7 +575,7 @@
 "    ""nome"": ""Napoli"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 60,"
@@ -583,7 +583,7 @@
 "    ""nome"": ""Osasuna"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 61,"
@@ -591,7 +591,7 @@
 "    ""nome"": ""goias"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 62,"
@@ -599,7 +599,7 @@
 "    ""nome"": ""avai"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 63,"
@@ -607,7 +607,7 @@
 "    ""nome"": ""Bournemouth"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 64,"
@@ -615,7 +615,7 @@
 "    ""nome"": ""Mallorca"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 65,"
@@ -623,7 +623,7 @@
 "    ""nome"": ""Levante"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 66,"
@@ -631,7 +631,7 @@
 "    ""nome"": ""Girona"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 67,"
@@ -639,7 +639,7 @@
 "    ""nome"": ""corinthians"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 68,"
@@ -647,7 +647,7 @@
 "    ""nome"": ""cuiaba"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 69,"
@@ -655,7 +655,7 @@
 "    ""nome"": ""Celta-de-Vigo"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 70,"
@@ -663,7 +663,7 @@
 "    ""nome"": ""Arsenal"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 71,"
@@ -671,7 +671,7 @@
 "    ""nome"": ""Sassuolo"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 72,"
@@ -679,7 +679,7 @@
 "    ""nome"": ""bragantino"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 73,"
@@ -687,7 +687,7 @@
 "    ""nome"": ""Everton"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 74,"
@@ -695,7 +695,7 @@
 "    ""nome"": ""Tottenham"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 75,"
@@ -703,7 +703,7 @@
 "    ""nome"": ""Villarreal"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 76,"
@@ -711,7 +711,7 @@
 "    ""nome"": ""operario"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 77,"
@@ -719,7 +719,7 @@
 "    ""nome"": ""Roma"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 78,"
@@ -727,7 +727,7 @@
 "    ""nome"": ""Lazio"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 79,"
@@ -735,7 +735,7 @@
 "    ""nome"": ""chapecoense"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 80,"
@@ -743,7 +743,7 @@
 "    ""nome"": ""Inter"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 81,"
@@ -751,7 +751,7 @@
 "    ""nome"": ""Pisa"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 82,"
@@ -759,7 +759,7 @@
 "    ""nome"": ""novorizontino"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 83,"
@@ -767,7 +767,7 @@
 "    ""nome"": ""Atl-Madrid"","
 "    ""liga"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 84,"
@@ -775,7 +775,7 @@
 "    ""nome"": ""vitoria"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 85,"
@@ -783,7 +783,7 @@
 "    ""nome"": ""Juventus"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 86,"
@@ -791,7 +791,7 @@
 "    ""nome"": ""Newcastle"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 87,"
@@ -799,7 +799,7 @@
 "    ""nome"": ""remo"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 88,"
@@ -807,7 +807,7 @@
 "    ""nome"": ""Chelsea"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 89,"
@@ -815,7 +815,7 @@
 "    ""nome"": ""Manchester-utd"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 90,"
@@ -823,7 +823,7 @@
 "    ""nome"": ""botafogo"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 91,"
@@ -831,7 +831,7 @@
 "    ""nome"": ""santos"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 92,"
@@ -839,7 +839,7 @@
 "    ""nome"": ""West-Ham"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 93,"
@@ -847,7 +847,7 @@
 "    ""nome"": ""Torino"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 94,"
@@ -855,7 +855,7 @@
 "    ""nome"": ""sport"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 95,"
@@ -863,7 +863,7 @@
 "    ""nome"": ""coritiba"","
 "    ""liga"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 96,"
@@ -871,7 +871,7 @@
 "    ""nome"": ""Nottingham"","
 "    ""liga"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 97,"
@@ -879,7 +879,7 @@
 "    ""nome"": ""vasco"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 98,"
@@ -887,7 +887,7 @@
 "    ""nome"": ""cruzeiro"","
 "    ""liga"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 99,"
@@ -895,7 +895,7 @@
 "    ""nome"": ""Verona"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 100,"
@@ -903,7 +903,7 @@
 "    ""nome"": ""Cremonese"","
 "    ""liga"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 101,"
@@ -911,7 +911,7 @@
 "    ""nome"": ""Al Nassr Riyadh"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 102,"
@@ -919,7 +919,7 @@
 "    ""nome"": ""Al-Ittihad"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 103,"
@@ -927,7 +927,7 @@
 "    ""nome"": ""Al Khaleej"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 104,"
@@ -935,7 +935,7 @@
 "    ""nome"": ""Al-Qadisiya"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 105,"
@@ -943,7 +943,7 @@
 "    ""nome"": ""Al-Hilal"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 106,"
@@ -951,7 +951,7 @@
 "    ""nome"": ""Al-Ettifaq"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 107,"
@@ -959,7 +959,7 @@
 "    ""nome"": ""Al Fayha"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 108,"
@@ -967,7 +967,7 @@
 "    ""nome"": ""Al-Ahli"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 109,"
@@ -975,7 +975,7 @@
 "    ""nome"": ""Al Hazem"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 110,"
@@ -983,7 +983,7 @@
 "    ""nome"": ""Damac"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 111,"
@@ -991,7 +991,7 @@
 "    ""nome"": ""Al-Fateh"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 112,"
@@ -999,7 +999,7 @@
 "    ""nome"": ""Al Kholood"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 113,"
@@ -1007,7 +1007,7 @@
 "    ""nome"": ""Neom SC"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 114,"
@@ -1015,7 +1015,7 @@
 "    ""nome"": ""Al Najma"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 115,"
@@ -1023,7 +1023,7 @@
 "    ""nome"": ""Al Riyadh"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 116,"
@@ -1031,7 +1031,7 @@
 "    ""nome"": ""Al Okhdood"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 117,"
@@ -1039,7 +1039,7 @@
 "    ""nome"": ""Al-Shabab"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 118,"
@@ -1047,7 +1047,7 @@
 "    ""nome"": ""Al-Taawon"","
 "    ""liga"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 119,"
@@ -1055,7 +1055,7 @@
 "    ""nome"": ""PSG"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 120,"
@@ -1063,7 +1063,7 @@
 "    ""nome"": ""Lyon"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 121,"
@@ -1071,7 +1071,7 @@
 "    ""nome"": ""Lille"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 122,"
@@ -1079,7 +1079,7 @@
 "    ""nome"": ""Monaco"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 123,"
@@ -1087,7 +1087,7 @@
 "    ""nome"": ""Lens"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 124,"
@@ -1095,7 +1095,7 @@
 "    ""nome"": ""Strasbourg"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 125,"
@@ -1103,7 +1103,7 @@
 "    ""nome"": ""Toulouse"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 126,"
@@ -1111,7 +1111,7 @@
 "    ""nome"": ""Angers"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 127,"
@@ -1119,7 +1119,7 @@
 "    ""nome"": ""Rennes"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 128,"
@@ -1127,7 +1127,7 @@
 "    ""nome"": ""Marseille"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 129,"
@@ -1135,7 +1135,7 @@
 "    ""nome"": ""Le_Havre"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 130,"
@@ -1143,7 +1143,7 @@
 "    ""nome"": ""Nice"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 131,"
@@ -1151,7 +1151,7 @@
 "    ""nome"": ""Nantes"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 132,"
@@ -1159,7 +1159,7 @@
 "    ""nome"": ""Auxerre"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 133,"
@@ -1167,7 +1167,7 @@
 "    ""nome"": ""Lorient"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 134,"
@@ -1175,7 +1175,7 @@
 "    ""nome"": ""Paris_FC"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 135,"
@@ -1183,7 +1183,7 @@
 "    ""nome"": ""Brest"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 136,"
@@ -1191,7 +1191,7 @@
 "    ""nome"": ""Metz"","
 "    ""liga"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 137,"
@@ -1199,7 +1199,7 @@
 "    ""nome"": ""Alverca"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 138,"
@@ -1207,7 +1207,7 @@
 "    ""nome"": ""Tondela"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 139,"
@@ -1215,7 +1215,7 @@
 "    ""nome"": ""Benfica"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 140,"
@@ -1223,7 +1223,7 @@
 "    ""nome"": ""Santa_Clara"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 141,"
@@ -1231,7 +1231,7 @@
 "    ""nome"": ""Estoril"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 142,"
@@ -1239,7 +1239,7 @@
 "    ""nome"": ""AFS"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 143,"
@@ -1247,7 +1247,7 @@
 "    ""nome"": ""Moreirense"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 144,"
@@ -1255,7 +1255,7 @@
 "    ""nome"": ""Rio_Ave"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 145,"
@@ -1263,7 +1263,7 @@
 "    ""nome"": ""Porto"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 146,"
@@ -1271,7 +1271,7 @@
 "    ""nome"": ""Nacional"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 147,"
@@ -1279,7 +1279,7 @@
 "    ""nome"": ""Famalicπo"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 148,"
@@ -1287,7 +1287,7 @@
 "    ""nome"": ""Sporting"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 149,"
@@ -1295,7 +1295,7 @@
 "    ""nome"": ""Estrela_da_Amadora"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 150,"
@@ -1303,7 +1303,7 @@
 "    ""nome"": ""Vit≤ria_de_Guimarπes"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 151,"
@@ -1311,7 +1311,7 @@
 "    ""nome"": ""Arouca"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 152,"
@@ -1319,7 +1319,7 @@
 "    ""nome"": ""Casa_Pia"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 153,"
@@ -1327,7 +1327,7 @@
 "    ""nome"": ""Braga"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 154,"
@@ -1335,7 +1335,7 @@
 "    ""nome"": ""Gil_Vicente"","
 "    ""liga"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 155,"
@@ -1343,7 +1343,7 @@
 "    ""nome"": ""Leverkusen"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 156,"
@@ -1351,7 +1351,7 @@
 "    ""nome"": ""Frankfurt"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 157,"
@@ -1359,7 +1359,7 @@
 "    ""nome"": ""Freiburg"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 158,"
@@ -1367,7 +1367,7 @@
 "    ""nome"": ""Stuttgart"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 159,"
@@ -1375,7 +1375,7 @@
 "    ""nome"": ""Heidenheim"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 160,"
@@ -1383,7 +1383,7 @@
 "    ""nome"": ""Dortmund"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 161,"
@@ -1391,7 +1391,7 @@
 "    ""nome"": ""Mainz"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 162,"
@@ -1399,7 +1399,7 @@
 "    ""nome"": ""RB_Leipzig"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 163,"
@@ -1407,7 +1407,7 @@
 "    ""nome"": ""Union_Berlin"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 164,"
@@ -1415,7 +1415,7 @@
 "    ""nome"": ""Hoffenheim"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 165,"
@@ -1423,7 +1423,7 @@
 "    ""nome"": ""Wolfsburg"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 166,"
@@ -1431,7 +1431,7 @@
 "    ""nome"": ""K÷ln"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 167,"
@@ -1439,7 +1439,7 @@
 "    ""nome"": ""Bayern_Munique"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 168,"
@@ -1447,7 +1447,7 @@
 "    ""nome"": ""Hamburger"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 169,"
@@ -1455,7 +1455,7 @@
 "    ""nome"": ""St.Pauli"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 170,"
@@ -1463,7 +1463,7 @@
 "    ""nome"": ""Augsburg"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 171,"
@@ -1471,7 +1471,7 @@
 "    ""nome"": ""Monchengladbach"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.time"","
 "  ""pk"": 172,"
@@ -1479,7 +1479,7 @@
 "    ""nome"": ""Bremen"","
 "    ""liga"": 9"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 1,"
@@ -1520,7 +1520,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 2,"
@@ -1561,7 +1561,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 3,"
@@ -1602,7 +1602,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 4,"
@@ -1643,7 +1643,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 5,"
@@ -1684,7 +1684,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 6,"
@@ -1725,7 +1725,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 7,"
@@ -1766,7 +1766,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 8,"
@@ -1807,7 +1807,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 9,"
@@ -1848,7 +1848,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 10,"
@@ -1889,7 +1889,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 11,"
@@ -1930,7 +1930,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 12,"
@@ -1971,7 +1971,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 13,"
@@ -2012,7 +2012,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 14,"
@@ -2053,7 +2053,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 15,"
@@ -2094,7 +2094,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 16,"
@@ -2135,7 +2135,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 17,"
@@ -2176,7 +2176,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 18,"
@@ -2217,7 +2217,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 19,"
@@ -2258,7 +2258,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 20,"
@@ -2299,7 +2299,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 21,"
@@ -2340,7 +2340,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 22,"
@@ -2381,7 +2381,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 23,"
@@ -2422,7 +2422,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 24,"
@@ -2463,7 +2463,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 25,"
@@ -2504,7 +2504,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 26,"
@@ -2545,7 +2545,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 27,"
@@ -2586,7 +2586,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 28,"
@@ -2627,7 +2627,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 29,"
@@ -2668,7 +2668,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 30,"
@@ -2709,7 +2709,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 31,"
@@ -2750,7 +2750,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 32,"
@@ -2791,7 +2791,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 33,"
@@ -2832,7 +2832,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 34,"
@@ -2873,7 +2873,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 35,"
@@ -2914,7 +2914,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 36,"
@@ -2955,7 +2955,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 37,"
@@ -2996,7 +2996,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 38,"
@@ -3037,7 +3037,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 39,"
@@ -3078,7 +3078,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 40,"
@@ -3119,7 +3119,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 41,"
@@ -3160,7 +3160,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 42,"
@@ -3201,7 +3201,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 43,"
@@ -3242,7 +3242,7 @@
 "    ""cartoes_amarelos_casa_total"": 7,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 44,"
@@ -3283,7 +3283,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 45,"
@@ -3324,7 +3324,7 @@
 "    ""cartoes_amarelos_casa_total"": 7,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 46,"
@@ -3365,7 +3365,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 47,"
@@ -3406,7 +3406,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 48,"
@@ -3447,7 +3447,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 49,"
@@ -3488,7 +3488,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 50,"
@@ -3529,7 +3529,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 51,"
@@ -3570,7 +3570,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 52,"
@@ -3611,7 +3611,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 53,"
@@ -3652,7 +3652,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 54,"
@@ -3693,7 +3693,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 55,"
@@ -3734,7 +3734,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 56,"
@@ -3775,7 +3775,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 57,"
@@ -3816,7 +3816,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 58,"
@@ -3857,7 +3857,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 59,"
@@ -3898,7 +3898,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 60,"
@@ -3939,7 +3939,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 61,"
@@ -3980,7 +3980,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 62,"
@@ -4021,7 +4021,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 63,"
@@ -4062,7 +4062,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 64,"
@@ -4103,7 +4103,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 65,"
@@ -4144,7 +4144,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 66,"
@@ -4185,7 +4185,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 67,"
@@ -4226,7 +4226,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 68,"
@@ -4267,7 +4267,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 69,"
@@ -4308,7 +4308,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 70,"
@@ -4349,7 +4349,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 71,"
@@ -4390,7 +4390,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 72,"
@@ -4431,7 +4431,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 73,"
@@ -4472,7 +4472,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 74,"
@@ -4513,7 +4513,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 75,"
@@ -4554,7 +4554,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 76,"
@@ -4595,7 +4595,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 77,"
@@ -4636,7 +4636,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 78,"
@@ -4677,7 +4677,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 79,"
@@ -4718,7 +4718,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 80,"
@@ -4759,7 +4759,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 81,"
@@ -4800,7 +4800,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 82,"
@@ -4841,7 +4841,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 83,"
@@ -4882,7 +4882,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 84,"
@@ -4923,7 +4923,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 85,"
@@ -4964,7 +4964,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 86,"
@@ -5005,7 +5005,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 87,"
@@ -5046,7 +5046,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 88,"
@@ -5087,7 +5087,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 89,"
@@ -5128,7 +5128,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 90,"
@@ -5169,7 +5169,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 91,"
@@ -5210,7 +5210,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 92,"
@@ -5251,7 +5251,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 93,"
@@ -5292,7 +5292,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 94,"
@@ -5333,7 +5333,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 95,"
@@ -5374,7 +5374,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 96,"
@@ -5415,7 +5415,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 97,"
@@ -5456,7 +5456,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 98,"
@@ -5497,7 +5497,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 99,"
@@ -5538,7 +5538,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 100,"
@@ -5579,7 +5579,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 101,"
@@ -5620,7 +5620,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 102,"
@@ -5661,7 +5661,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 103,"
@@ -5702,7 +5702,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 104,"
@@ -5743,7 +5743,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 105,"
@@ -5784,7 +5784,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 106,"
@@ -5825,7 +5825,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 107,"
@@ -5866,7 +5866,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 108,"
@@ -5907,7 +5907,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 109,"
@@ -5948,7 +5948,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 110,"
@@ -5989,7 +5989,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 111,"
@@ -6030,7 +6030,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 112,"
@@ -6071,7 +6071,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 113,"
@@ -6112,7 +6112,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 114,"
@@ -6153,7 +6153,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 115,"
@@ -6194,7 +6194,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 116,"
@@ -6235,7 +6235,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 117,"
@@ -6276,7 +6276,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 118,"
@@ -6317,7 +6317,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 119,"
@@ -6358,7 +6358,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 120,"
@@ -6399,7 +6399,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 121,"
@@ -6440,7 +6440,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 122,"
@@ -6481,7 +6481,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 123,"
@@ -6522,7 +6522,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 124,"
@@ -6563,7 +6563,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 125,"
@@ -6604,7 +6604,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 126,"
@@ -6645,7 +6645,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 127,"
@@ -6686,7 +6686,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 128,"
@@ -6727,7 +6727,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 129,"
@@ -6768,7 +6768,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 130,"
@@ -6809,7 +6809,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 131,"
@@ -6850,7 +6850,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 132,"
@@ -6891,7 +6891,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 133,"
@@ -6932,7 +6932,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 134,"
@@ -6973,7 +6973,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 135,"
@@ -7014,7 +7014,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 136,"
@@ -7055,7 +7055,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 137,"
@@ -7096,7 +7096,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 138,"
@@ -7137,7 +7137,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 139,"
@@ -7178,7 +7178,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 140,"
@@ -7219,7 +7219,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 141,"
@@ -7260,7 +7260,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 142,"
@@ -7301,7 +7301,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 143,"
@@ -7342,7 +7342,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 144,"
@@ -7383,7 +7383,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 145,"
@@ -7424,7 +7424,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 146,"
@@ -7465,7 +7465,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 147,"
@@ -7506,7 +7506,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 148,"
@@ -7547,7 +7547,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 149,"
@@ -7588,7 +7588,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 150,"
@@ -7629,7 +7629,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 151,"
@@ -7670,7 +7670,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 152,"
@@ -7711,7 +7711,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 153,"
@@ -7752,7 +7752,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 154,"
@@ -7793,7 +7793,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 155,"
@@ -7834,7 +7834,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 156,"
@@ -7875,7 +7875,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 157,"
@@ -7916,7 +7916,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 158,"
@@ -7957,7 +7957,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 159,"
@@ -7998,7 +7998,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 160,"
@@ -8039,7 +8039,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 161,"
@@ -8080,7 +8080,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 162,"
@@ -8121,7 +8121,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 163,"
@@ -8162,7 +8162,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 164,"
@@ -8203,7 +8203,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 165,"
@@ -8244,7 +8244,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 166,"
@@ -8285,7 +8285,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 167,"
@@ -8326,7 +8326,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 168,"
@@ -8367,7 +8367,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 169,"
@@ -8408,7 +8408,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 170,"
@@ -8449,7 +8449,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 171,"
@@ -8490,7 +8490,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 172,"
@@ -8531,7 +8531,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 173,"
@@ -8572,7 +8572,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 174,"
@@ -8613,7 +8613,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 175,"
@@ -8654,7 +8654,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 176,"
@@ -8695,7 +8695,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 177,"
@@ -8736,7 +8736,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 178,"
@@ -8777,7 +8777,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 179,"
@@ -8818,7 +8818,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 180,"
@@ -8859,7 +8859,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 181,"
@@ -8900,7 +8900,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 182,"
@@ -8941,7 +8941,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 183,"
@@ -8982,7 +8982,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 184,"
@@ -9023,7 +9023,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 185,"
@@ -9064,7 +9064,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 186,"
@@ -9105,7 +9105,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 187,"
@@ -9146,7 +9146,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 188,"
@@ -9187,7 +9187,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 189,"
@@ -9228,7 +9228,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 190,"
@@ -9269,7 +9269,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 191,"
@@ -9310,7 +9310,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 192,"
@@ -9351,7 +9351,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 193,"
@@ -9392,7 +9392,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 194,"
@@ -9433,7 +9433,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 195,"
@@ -9474,7 +9474,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 196,"
@@ -9515,7 +9515,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 197,"
@@ -9556,7 +9556,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 198,"
@@ -9597,7 +9597,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 199,"
@@ -9638,7 +9638,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 200,"
@@ -9679,7 +9679,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 201,"
@@ -9720,7 +9720,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 202,"
@@ -9761,7 +9761,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 203,"
@@ -9802,7 +9802,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 204,"
@@ -9843,7 +9843,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 205,"
@@ -9884,7 +9884,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 206,"
@@ -9925,7 +9925,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 207,"
@@ -9966,7 +9966,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 208,"
@@ -10007,7 +10007,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 209,"
@@ -10048,7 +10048,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 210,"
@@ -10089,7 +10089,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 211,"
@@ -10130,7 +10130,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 212,"
@@ -10171,7 +10171,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 213,"
@@ -10212,7 +10212,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 214,"
@@ -10253,7 +10253,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 215,"
@@ -10294,7 +10294,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 216,"
@@ -10335,7 +10335,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 217,"
@@ -10376,7 +10376,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 218,"
@@ -10417,7 +10417,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 219,"
@@ -10458,7 +10458,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 220,"
@@ -10499,7 +10499,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 221,"
@@ -10540,7 +10540,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 222,"
@@ -10581,7 +10581,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 223,"
@@ -10622,7 +10622,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 224,"
@@ -10663,7 +10663,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 225,"
@@ -10704,7 +10704,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 226,"
@@ -10745,7 +10745,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 227,"
@@ -10786,7 +10786,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 228,"
@@ -10827,7 +10827,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 229,"
@@ -10868,7 +10868,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 230,"
@@ -10909,7 +10909,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 231,"
@@ -10950,7 +10950,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 232,"
@@ -10991,7 +10991,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 233,"
@@ -11032,7 +11032,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 234,"
@@ -11073,7 +11073,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 235,"
@@ -11114,7 +11114,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 236,"
@@ -11155,7 +11155,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 237,"
@@ -11196,7 +11196,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 238,"
@@ -11237,7 +11237,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 239,"
@@ -11278,7 +11278,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 240,"
@@ -11319,7 +11319,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 241,"
@@ -11360,7 +11360,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 242,"
@@ -11401,7 +11401,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 243,"
@@ -11442,7 +11442,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 244,"
@@ -11483,7 +11483,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 245,"
@@ -11524,7 +11524,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 246,"
@@ -11565,7 +11565,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 247,"
@@ -11606,7 +11606,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 248,"
@@ -11647,7 +11647,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 249,"
@@ -11688,7 +11688,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 250,"
@@ -11729,7 +11729,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 251,"
@@ -11770,7 +11770,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 252,"
@@ -11811,7 +11811,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 253,"
@@ -11852,7 +11852,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 254,"
@@ -11893,7 +11893,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 255,"
@@ -11934,7 +11934,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 256,"
@@ -11975,7 +11975,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 257,"
@@ -12016,7 +12016,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 258,"
@@ -12057,7 +12057,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 259,"
@@ -12098,7 +12098,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 260,"
@@ -12139,7 +12139,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 261,"
@@ -12180,7 +12180,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 262,"
@@ -12221,7 +12221,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 263,"
@@ -12262,7 +12262,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 264,"
@@ -12303,7 +12303,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 265,"
@@ -12344,7 +12344,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 266,"
@@ -12385,7 +12385,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 267,"
@@ -12426,7 +12426,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 268,"
@@ -12467,7 +12467,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 269,"
@@ -12508,7 +12508,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 270,"
@@ -12549,7 +12549,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 271,"
@@ -12590,7 +12590,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 272,"
@@ -12631,7 +12631,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 273,"
@@ -12672,7 +12672,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 274,"
@@ -12713,7 +12713,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 275,"
@@ -12754,7 +12754,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 276,"
@@ -12795,7 +12795,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 277,"
@@ -12836,7 +12836,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 278,"
@@ -12877,7 +12877,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 279,"
@@ -12918,7 +12918,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 280,"
@@ -12959,7 +12959,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 281,"
@@ -13000,7 +13000,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 282,"
@@ -13041,7 +13041,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 283,"
@@ -13082,7 +13082,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 284,"
@@ -13123,7 +13123,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 285,"
@@ -13164,7 +13164,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 286,"
@@ -13205,7 +13205,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 287,"
@@ -13246,7 +13246,7 @@
 "    ""cartoes_amarelos_casa_total"": 7,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 288,"
@@ -13287,7 +13287,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 289,"
@@ -13328,7 +13328,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 290,"
@@ -13369,7 +13369,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 291,"
@@ -13410,7 +13410,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 292,"
@@ -13451,7 +13451,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 293,"
@@ -13492,7 +13492,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 294,"
@@ -13533,7 +13533,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 295,"
@@ -13574,7 +13574,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 296,"
@@ -13615,7 +13615,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 297,"
@@ -13656,7 +13656,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 298,"
@@ -13697,7 +13697,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 299,"
@@ -13738,7 +13738,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 300,"
@@ -13779,7 +13779,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 301,"
@@ -13820,7 +13820,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 302,"
@@ -13861,7 +13861,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 303,"
@@ -13902,7 +13902,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 304,"
@@ -13943,7 +13943,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 305,"
@@ -13984,7 +13984,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 306,"
@@ -14025,7 +14025,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 307,"
@@ -14066,7 +14066,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 308,"
@@ -14107,7 +14107,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 309,"
@@ -14148,7 +14148,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 310,"
@@ -14189,7 +14189,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 311,"
@@ -14230,7 +14230,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 312,"
@@ -14271,7 +14271,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 313,"
@@ -14312,7 +14312,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 314,"
@@ -14353,7 +14353,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 315,"
@@ -14394,7 +14394,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 316,"
@@ -14435,7 +14435,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 317,"
@@ -14476,7 +14476,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 318,"
@@ -14517,7 +14517,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 319,"
@@ -14558,7 +14558,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 320,"
@@ -14599,7 +14599,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 321,"
@@ -14640,7 +14640,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 322,"
@@ -14681,7 +14681,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 323,"
@@ -14722,7 +14722,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 324,"
@@ -14763,7 +14763,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 325,"
@@ -14804,7 +14804,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 326,"
@@ -14845,7 +14845,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 327,"
@@ -14886,7 +14886,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 328,"
@@ -14927,7 +14927,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 329,"
@@ -14968,7 +14968,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 330,"
@@ -15009,7 +15009,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 331,"
@@ -15050,7 +15050,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 332,"
@@ -15091,7 +15091,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 333,"
@@ -15132,7 +15132,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 334,"
@@ -15173,7 +15173,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 335,"
@@ -15214,7 +15214,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 336,"
@@ -15255,7 +15255,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 337,"
@@ -15296,7 +15296,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 338,"
@@ -15337,7 +15337,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 339,"
@@ -15378,7 +15378,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 340,"
@@ -15419,7 +15419,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 341,"
@@ -15460,7 +15460,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 342,"
@@ -15501,7 +15501,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 343,"
@@ -15542,7 +15542,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 344,"
@@ -15583,7 +15583,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 345,"
@@ -15624,7 +15624,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 346,"
@@ -15665,7 +15665,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 347,"
@@ -15706,7 +15706,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 348,"
@@ -15747,7 +15747,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 349,"
@@ -15788,7 +15788,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 350,"
@@ -15829,7 +15829,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 351,"
@@ -15870,7 +15870,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 352,"
@@ -15911,7 +15911,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 353,"
@@ -15952,7 +15952,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 354,"
@@ -15993,7 +15993,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 355,"
@@ -16034,7 +16034,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 356,"
@@ -16075,7 +16075,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 357,"
@@ -16116,7 +16116,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 358,"
@@ -16157,7 +16157,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 359,"
@@ -16198,7 +16198,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 360,"
@@ -16239,7 +16239,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 361,"
@@ -16280,7 +16280,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 362,"
@@ -16321,7 +16321,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 363,"
@@ -16362,7 +16362,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 364,"
@@ -16403,7 +16403,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 365,"
@@ -16444,7 +16444,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 366,"
@@ -16485,7 +16485,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 367,"
@@ -16526,7 +16526,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 368,"
@@ -16567,7 +16567,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 369,"
@@ -16608,7 +16608,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 370,"
@@ -16649,7 +16649,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 371,"
@@ -16690,7 +16690,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 372,"
@@ -16731,7 +16731,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 373,"
@@ -16772,7 +16772,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 374,"
@@ -16813,7 +16813,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 375,"
@@ -16854,7 +16854,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 376,"
@@ -16895,7 +16895,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 377,"
@@ -16936,7 +16936,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 378,"
@@ -16977,7 +16977,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 379,"
@@ -17018,7 +17018,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 380,"
@@ -17059,7 +17059,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 381,"
@@ -17100,7 +17100,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 382,"
@@ -17141,7 +17141,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 383,"
@@ -17182,7 +17182,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 384,"
@@ -17223,7 +17223,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 385,"
@@ -17264,7 +17264,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 386,"
@@ -17305,7 +17305,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 387,"
@@ -17346,7 +17346,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 388,"
@@ -17387,7 +17387,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 389,"
@@ -17428,7 +17428,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 390,"
@@ -17469,7 +17469,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 391,"
@@ -17510,7 +17510,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 392,"
@@ -17551,7 +17551,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 393,"
@@ -17592,7 +17592,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 394,"
@@ -17633,7 +17633,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 395,"
@@ -17674,7 +17674,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 396,"
@@ -17715,7 +17715,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 397,"
@@ -17756,7 +17756,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 398,"
@@ -17797,7 +17797,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 399,"
@@ -17838,7 +17838,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 400,"
@@ -17879,7 +17879,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 401,"
@@ -17920,7 +17920,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 402,"
@@ -17961,7 +17961,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 403,"
@@ -18002,7 +18002,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 404,"
@@ -18043,7 +18043,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 405,"
@@ -18084,7 +18084,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 406,"
@@ -18125,7 +18125,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 407,"
@@ -18166,7 +18166,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 408,"
@@ -18207,7 +18207,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 409,"
@@ -18248,7 +18248,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 410,"
@@ -18289,7 +18289,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 411,"
@@ -18330,7 +18330,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 412,"
@@ -18371,7 +18371,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 413,"
@@ -18412,7 +18412,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 414,"
@@ -18453,7 +18453,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 415,"
@@ -18494,7 +18494,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 416,"
@@ -18535,7 +18535,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 417,"
@@ -18576,7 +18576,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 418,"
@@ -18617,7 +18617,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 419,"
@@ -18658,7 +18658,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 420,"
@@ -18699,7 +18699,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 421,"
@@ -18740,7 +18740,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 422,"
@@ -18781,7 +18781,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 423,"
@@ -18822,7 +18822,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 424,"
@@ -18863,7 +18863,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 425,"
@@ -18904,7 +18904,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 426,"
@@ -18945,7 +18945,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 427,"
@@ -18986,7 +18986,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 428,"
@@ -19027,7 +19027,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 429,"
@@ -19068,7 +19068,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 430,"
@@ -19109,7 +19109,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 431,"
@@ -19150,7 +19150,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 432,"
@@ -19191,7 +19191,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 433,"
@@ -19232,7 +19232,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 434,"
@@ -19273,7 +19273,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 435,"
@@ -19314,7 +19314,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 436,"
@@ -19355,7 +19355,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 437,"
@@ -19396,7 +19396,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 438,"
@@ -19437,7 +19437,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 439,"
@@ -19478,7 +19478,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 440,"
@@ -19519,7 +19519,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 441,"
@@ -19560,7 +19560,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 442,"
@@ -19601,7 +19601,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 443,"
@@ -19642,7 +19642,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 444,"
@@ -19683,7 +19683,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 445,"
@@ -19724,7 +19724,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 446,"
@@ -19765,7 +19765,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 447,"
@@ -19806,7 +19806,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 448,"
@@ -19847,7 +19847,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 449,"
@@ -19888,7 +19888,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 450,"
@@ -19929,7 +19929,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 451,"
@@ -19970,7 +19970,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 452,"
@@ -20011,7 +20011,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 453,"
@@ -20052,7 +20052,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 454,"
@@ -20093,7 +20093,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 455,"
@@ -20134,7 +20134,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 456,"
@@ -20175,7 +20175,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 457,"
@@ -20216,7 +20216,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 458,"
@@ -20257,7 +20257,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 459,"
@@ -20298,7 +20298,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 460,"
@@ -20339,7 +20339,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 461,"
@@ -20380,7 +20380,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 462,"
@@ -20421,7 +20421,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 463,"
@@ -20462,7 +20462,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 464,"
@@ -20503,7 +20503,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 465,"
@@ -20544,7 +20544,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 466,"
@@ -20585,7 +20585,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 467,"
@@ -20626,7 +20626,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 468,"
@@ -20667,7 +20667,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 469,"
@@ -20708,7 +20708,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 470,"
@@ -20749,7 +20749,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 471,"
@@ -20790,7 +20790,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 472,"
@@ -20831,7 +20831,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 473,"
@@ -20872,7 +20872,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 474,"
@@ -20913,7 +20913,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 475,"
@@ -20954,7 +20954,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 476,"
@@ -20995,7 +20995,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 477,"
@@ -21036,7 +21036,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 478,"
@@ -21077,7 +21077,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 480,"
@@ -21118,7 +21118,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 482,"
@@ -21159,7 +21159,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 483,"
@@ -21200,7 +21200,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 484,"
@@ -21241,7 +21241,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 485,"
@@ -21282,7 +21282,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 486,"
@@ -21323,7 +21323,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 487,"
@@ -21364,7 +21364,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 488,"
@@ -21405,7 +21405,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 489,"
@@ -21446,7 +21446,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 490,"
@@ -21487,7 +21487,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 491,"
@@ -21528,7 +21528,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 492,"
@@ -21569,7 +21569,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 493,"
@@ -21610,7 +21610,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 494,"
@@ -21651,7 +21651,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 495,"
@@ -21692,7 +21692,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 496,"
@@ -21733,7 +21733,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 497,"
@@ -21774,7 +21774,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 498,"
@@ -21815,7 +21815,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 499,"
@@ -21856,7 +21856,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 500,"
@@ -21897,7 +21897,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 501,"
@@ -21938,7 +21938,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 502,"
@@ -21979,7 +21979,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 503,"
@@ -22020,7 +22020,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 504,"
@@ -22061,7 +22061,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 505,"
@@ -22102,7 +22102,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 506,"
@@ -22143,7 +22143,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 507,"
@@ -22184,7 +22184,7 @@
 "    ""cartoes_amarelos_casa_total"": 7,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 508,"
@@ -22225,7 +22225,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 509,"
@@ -22266,7 +22266,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 510,"
@@ -22307,7 +22307,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 511,"
@@ -22348,7 +22348,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 512,"
@@ -22389,7 +22389,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 513,"
@@ -22430,7 +22430,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 514,"
@@ -22471,7 +22471,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 515,"
@@ -22512,7 +22512,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 516,"
@@ -22553,7 +22553,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 517,"
@@ -22594,7 +22594,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 518,"
@@ -22635,7 +22635,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 519,"
@@ -22676,7 +22676,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 520,"
@@ -22717,7 +22717,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 521,"
@@ -22758,7 +22758,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 522,"
@@ -22799,7 +22799,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 523,"
@@ -22840,7 +22840,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 524,"
@@ -22881,7 +22881,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 525,"
@@ -22922,7 +22922,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 526,"
@@ -22963,7 +22963,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 527,"
@@ -23004,7 +23004,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 528,"
@@ -23045,7 +23045,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 529,"
@@ -23086,7 +23086,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 530,"
@@ -23127,7 +23127,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 531,"
@@ -23168,7 +23168,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 532,"
@@ -23209,7 +23209,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 533,"
@@ -23250,7 +23250,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 534,"
@@ -23291,7 +23291,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 535,"
@@ -23332,7 +23332,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 536,"
@@ -23373,7 +23373,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 537,"
@@ -23414,7 +23414,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 538,"
@@ -23455,7 +23455,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 539,"
@@ -23496,7 +23496,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 540,"
@@ -23537,7 +23537,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 541,"
@@ -23578,7 +23578,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 542,"
@@ -23619,7 +23619,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 543,"
@@ -23660,7 +23660,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 544,"
@@ -23701,7 +23701,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 545,"
@@ -23742,7 +23742,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 546,"
@@ -23783,7 +23783,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 547,"
@@ -23824,7 +23824,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 548,"
@@ -23865,7 +23865,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 549,"
@@ -23906,7 +23906,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 550,"
@@ -23947,7 +23947,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 551,"
@@ -23988,7 +23988,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 552,"
@@ -24029,7 +24029,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 553,"
@@ -24070,7 +24070,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 554,"
@@ -24111,7 +24111,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 555,"
@@ -24152,7 +24152,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 556,"
@@ -24193,7 +24193,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 557,"
@@ -24234,7 +24234,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 558,"
@@ -24275,7 +24275,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 559,"
@@ -24316,7 +24316,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 560,"
@@ -24357,7 +24357,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 561,"
@@ -24398,7 +24398,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 562,"
@@ -24439,7 +24439,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 563,"
@@ -24480,7 +24480,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 564,"
@@ -24521,7 +24521,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 565,"
@@ -24562,7 +24562,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 566,"
@@ -24603,7 +24603,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 567,"
@@ -24644,7 +24644,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 568,"
@@ -24685,7 +24685,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 569,"
@@ -24726,7 +24726,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 570,"
@@ -24767,7 +24767,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 571,"
@@ -24808,7 +24808,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 572,"
@@ -24849,7 +24849,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 573,"
@@ -24890,7 +24890,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 574,"
@@ -24931,7 +24931,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 575,"
@@ -24972,7 +24972,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 576,"
@@ -25013,7 +25013,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 577,"
@@ -25054,7 +25054,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 578,"
@@ -25095,7 +25095,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 579,"
@@ -25136,7 +25136,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 580,"
@@ -25177,7 +25177,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 581,"
@@ -25218,7 +25218,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 582,"
@@ -25259,7 +25259,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 583,"
@@ -25300,7 +25300,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 584,"
@@ -25341,7 +25341,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 585,"
@@ -25382,7 +25382,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 586,"
@@ -25423,7 +25423,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 587,"
@@ -25464,7 +25464,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 588,"
@@ -25505,7 +25505,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 589,"
@@ -25546,7 +25546,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 590,"
@@ -25587,7 +25587,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 591,"
@@ -25628,7 +25628,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 592,"
@@ -25669,7 +25669,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 593,"
@@ -25710,7 +25710,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 594,"
@@ -25751,7 +25751,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 595,"
@@ -25792,7 +25792,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 596,"
@@ -25833,7 +25833,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 597,"
@@ -25874,7 +25874,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 598,"
@@ -25915,7 +25915,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 599,"
@@ -25956,7 +25956,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 600,"
@@ -25997,7 +25997,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 601,"
@@ -26038,7 +26038,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 602,"
@@ -26079,7 +26079,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 603,"
@@ -26120,7 +26120,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 604,"
@@ -26161,7 +26161,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 605,"
@@ -26202,7 +26202,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 606,"
@@ -26243,7 +26243,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 607,"
@@ -26284,7 +26284,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 608,"
@@ -26325,7 +26325,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 609,"
@@ -26366,7 +26366,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 610,"
@@ -26407,7 +26407,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 611,"
@@ -26448,7 +26448,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 612,"
@@ -26489,7 +26489,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 613,"
@@ -26530,7 +26530,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 614,"
@@ -26571,7 +26571,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 615,"
@@ -26612,7 +26612,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 616,"
@@ -26653,7 +26653,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 617,"
@@ -26694,7 +26694,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 618,"
@@ -26735,7 +26735,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 619,"
@@ -26776,7 +26776,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 620,"
@@ -26817,7 +26817,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 621,"
@@ -26858,7 +26858,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 622,"
@@ -26899,7 +26899,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 623,"
@@ -26940,7 +26940,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 624,"
@@ -26981,7 +26981,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 625,"
@@ -27022,7 +27022,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 626,"
@@ -27063,7 +27063,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 627,"
@@ -27104,7 +27104,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 628,"
@@ -27145,7 +27145,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 629,"
@@ -27186,7 +27186,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 630,"
@@ -27227,7 +27227,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 631,"
@@ -27268,7 +27268,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 632,"
@@ -27309,7 +27309,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 633,"
@@ -27350,7 +27350,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 634,"
@@ -27391,7 +27391,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 635,"
@@ -27432,7 +27432,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 636,"
@@ -27473,7 +27473,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 637,"
@@ -27514,7 +27514,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 638,"
@@ -27555,7 +27555,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 639,"
@@ -27596,7 +27596,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 640,"
@@ -27637,7 +27637,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 641,"
@@ -27678,7 +27678,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 642,"
@@ -27719,7 +27719,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 643,"
@@ -27760,7 +27760,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 644,"
@@ -27801,7 +27801,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 645,"
@@ -27842,7 +27842,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 646,"
@@ -27883,7 +27883,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 647,"
@@ -27924,7 +27924,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 648,"
@@ -27965,7 +27965,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 649,"
@@ -28006,7 +28006,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 650,"
@@ -28047,7 +28047,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 651,"
@@ -28088,7 +28088,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 652,"
@@ -28129,7 +28129,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 653,"
@@ -28170,7 +28170,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 654,"
@@ -28211,7 +28211,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 655,"
@@ -28252,7 +28252,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 656,"
@@ -28293,7 +28293,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 657,"
@@ -28334,7 +28334,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 658,"
@@ -28375,7 +28375,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 659,"
@@ -28416,7 +28416,7 @@
 "    ""cartoes_amarelos_casa_total"": 6,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 660,"
@@ -28457,7 +28457,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 661,"
@@ -28498,7 +28498,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 662,"
@@ -28539,7 +28539,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 663,"
@@ -28580,7 +28580,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 664,"
@@ -28621,7 +28621,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 665,"
@@ -28662,7 +28662,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 666,"
@@ -28703,7 +28703,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 667,"
@@ -28744,7 +28744,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 668,"
@@ -28785,7 +28785,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 669,"
@@ -28826,7 +28826,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 670,"
@@ -28867,7 +28867,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 671,"
@@ -28908,7 +28908,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 672,"
@@ -28949,7 +28949,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 673,"
@@ -28990,7 +28990,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 674,"
@@ -29031,7 +29031,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 7"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 675,"
@@ -29072,7 +29072,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 676,"
@@ -29113,7 +29113,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 677,"
@@ -29154,7 +29154,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 678,"
@@ -29195,7 +29195,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 679,"
@@ -29236,7 +29236,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 680,"
@@ -29277,7 +29277,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 681,"
@@ -29318,7 +29318,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 682,"
@@ -29359,7 +29359,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 683,"
@@ -29400,7 +29400,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 684,"
@@ -29441,7 +29441,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 685,"
@@ -29482,7 +29482,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 686,"
@@ -29523,7 +29523,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 687,"
@@ -29564,7 +29564,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 688,"
@@ -29605,7 +29605,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 689,"
@@ -29646,7 +29646,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 690,"
@@ -29687,7 +29687,7 @@
 "    ""cartoes_amarelos_casa_total"": 5,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 691,"
@@ -29728,7 +29728,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 692,"
@@ -29769,7 +29769,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 693,"
@@ -29810,7 +29810,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 694,"
@@ -29851,7 +29851,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 695,"
@@ -29892,7 +29892,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 696,"
@@ -29933,7 +29933,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 697,"
@@ -29974,7 +29974,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 698,"
@@ -30015,7 +30015,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 699,"
@@ -30056,7 +30056,7 @@
 "    ""cartoes_amarelos_casa_total"": 1,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 700,"
@@ -30097,7 +30097,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 701,"
@@ -30138,7 +30138,7 @@
 "    ""cartoes_amarelos_casa_total"": 2,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 702,"
@@ -30179,7 +30179,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 1"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 703,"
@@ -30220,7 +30220,7 @@
 "    ""cartoes_amarelos_casa_total"": 0,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 704,"
@@ -30261,7 +30261,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 705,"
@@ -30302,7 +30302,7 @@
 "    ""cartoes_amarelos_casa_total"": 4,"
 "    ""cartoes_amarelos_fora_total"": 2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.jogo"","
 "  ""pk"": 706,"
@@ -30343,7 +30343,7 @@
 "    ""cartoes_amarelos_casa_total"": 3,"
 "    ""cartoes_amarelos_fora_total"": 3"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 1,"
@@ -30398,7 +30398,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5454545454545454,"
 "    ""media_cartoes_amarelos_geral_total"": 1.9090909090909092"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 2,"
@@ -30453,7 +30453,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.6666666666666667"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 3,"
@@ -30508,7 +30508,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.001,"
 "    ""media_cartoes_amarelos_geral_total"": 1.9547619047619047"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 4,"
@@ -30563,7 +30563,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 5,"
@@ -30618,7 +30618,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.503,"
 "    ""media_cartoes_amarelos_geral_total"": 2.909090909090909"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 6,"
@@ -30673,7 +30673,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 7,"
@@ -30728,7 +30728,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6666666666666665"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 8,"
@@ -30783,7 +30783,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.7653846153846158,"
 "    ""media_cartoes_amarelos_geral_total"": 2.844230769230769"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 9,"
@@ -30838,7 +30838,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.3333333333333333"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 10,"
@@ -30893,7 +30893,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0018181818181815,"
 "    ""media_cartoes_amarelos_geral_total"": 2.7604761904761905"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 11,"
@@ -30948,7 +30948,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.3333333333333333"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 12,"
@@ -31003,7 +31003,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 13,"
@@ -31058,7 +31058,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.1507692307692308,"
 "    ""media_cartoes_amarelos_geral_total"": 2.4626923076923073"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 14,"
@@ -31113,7 +31113,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6184615384615384,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3476923076923075"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 15,"
@@ -31168,7 +31168,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.89,"
 "    ""media_cartoes_amarelos_geral_total"": 1.6818181818181819"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 16,"
@@ -31223,7 +31223,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 0.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 17,"
@@ -31278,7 +31278,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3333333333333335"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 18,"
@@ -31333,7 +31333,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6923076923076925,"
 "    ""media_cartoes_amarelos_geral_total"": 2.383461538461539"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 19,"
@@ -31388,7 +31388,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.3333333333333333"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 20,"
@@ -31443,7 +31443,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 21,"
@@ -31498,7 +31498,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.3333333333333333,"
 "    ""media_cartoes_amarelos_geral_total"": 1.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 22,"
@@ -31553,7 +31553,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.6666666666666667"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 23,"
@@ -31608,7 +31608,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 24,"
@@ -31663,7 +31663,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 25,"
@@ -31718,7 +31718,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.3333333333333333"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 26,"
@@ -31773,7 +31773,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.542307692307692,"
 "    ""media_cartoes_amarelos_geral_total"": 1.8819230769230768"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 27,"
@@ -31828,7 +31828,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 28,"
@@ -31883,7 +31883,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6115384615384616,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6196153846153845"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 29,"
@@ -31938,7 +31938,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.097,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0923809523809522"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 30,"
@@ -31993,7 +31993,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 31,"
@@ -32048,7 +32048,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 32,"
@@ -32103,7 +32103,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.5,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 33,"
@@ -32158,7 +32158,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.4545454545454546,"
 "    ""media_cartoes_amarelos_geral_total"": 1.9480952380952379"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 34,"
@@ -32213,7 +32213,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6700000000000004,"
 "    ""media_cartoes_amarelos_geral_total"": 2.4728571428571433"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 35,"
@@ -32268,7 +32268,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.3636363636363638,"
 "    ""media_cartoes_amarelos_geral_total"": 2.778695652173913"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 36,"
@@ -32323,7 +32323,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 37,"
@@ -32378,7 +32378,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 38,"
@@ -32433,7 +32433,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 39,"
@@ -32488,7 +32488,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.9253846153846155,"
 "    ""media_cartoes_amarelos_geral_total"": 2.4219230769230773"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 40,"
@@ -32543,7 +32543,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 41,"
@@ -32598,7 +32598,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 42,"
@@ -32653,7 +32653,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 43,"
@@ -32708,7 +32708,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5454545454545454,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6818181818181817"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 44,"
@@ -32763,7 +32763,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 45,"
@@ -32818,7 +32818,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 46,"
@@ -32873,7 +32873,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6184615384615384,"
 "    ""media_cartoes_amarelos_geral_total"": 2.5373076923076923"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 47,"
@@ -32928,7 +32928,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3333333333333335"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 48,"
@@ -32983,7 +32983,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6930769230769234,"
 "    ""media_cartoes_amarelos_geral_total"": 2.69"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 49,"
@@ -33038,7 +33038,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 50,"
@@ -33093,7 +33093,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6363636363636362,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3300000000000005"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 51,"
@@ -33148,7 +33148,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.3846153846153846,"
 "    ""media_cartoes_amarelos_geral_total"": 2.348076923076923"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 52,"
@@ -33203,7 +33203,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 53,"
@@ -33258,7 +33258,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6363636363636362,"
 "    ""media_cartoes_amarelos_geral_total"": 2.227272727272727"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 54,"
@@ -33313,7 +33313,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.7516666666666665,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 55,"
@@ -33368,7 +33368,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6666666666666665"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 56,"
@@ -33423,7 +33423,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.3333333333333335,"
 "    ""media_cartoes_amarelos_geral_total"": 2.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 57,"
@@ -33478,7 +33478,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.6184615384615384,"
 "    ""media_cartoes_amarelos_geral_total"": 2.766923076923077"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 58,"
@@ -33533,7 +33533,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 59,"
@@ -33588,7 +33588,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 60,"
@@ -33643,7 +33643,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 61,"
@@ -33698,7 +33698,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.9269230769230767,"
 "    ""media_cartoes_amarelos_geral_total"": 2.767307692307692"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 62,"
@@ -33753,7 +33753,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.3061538461538458,"
 "    ""media_cartoes_amarelos_geral_total"": 2.1153846153846154"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 63,"
@@ -33808,7 +33808,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 64,"
@@ -33863,7 +33863,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 65,"
@@ -33918,7 +33918,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 66,"
@@ -33973,7 +33973,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 67,"
@@ -34028,7 +34028,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.1666666666666665,"
 "    ""media_cartoes_amarelos_geral_total"": 2.9978260869565214"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 68,"
@@ -34083,7 +34083,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.4285714285714284,"
 "    ""media_cartoes_amarelos_geral_total"": 2.460384615384616"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 69,"
@@ -34138,7 +34138,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 70,"
@@ -34193,7 +34193,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 71,"
@@ -34248,7 +34248,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.6666666666666665"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 72,"
@@ -34303,7 +34303,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.909090909090909,"
 "    ""media_cartoes_amarelos_geral_total"": 2.566086956521739"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 73,"
@@ -34358,7 +34358,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 74,"
@@ -34413,7 +34413,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 75,"
@@ -34468,7 +34468,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 76,"
@@ -34523,7 +34523,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.076923076923077,"
 "    ""media_cartoes_amarelos_geral_total"": 2.773076923076923"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 77,"
@@ -34578,7 +34578,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.3333333333333333"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 78,"
@@ -34633,7 +34633,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 79,"
@@ -34688,7 +34688,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.996923076923077,"
 "    ""media_cartoes_amarelos_geral_total"": 2.5403846153846157"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 80,"
@@ -34743,7 +34743,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 0.6666666666666666"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 81,"
@@ -34798,7 +34798,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 82,"
@@ -34853,7 +34853,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.8461538461538463,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3419230769230768"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 83,"
@@ -34908,7 +34908,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 84,"
@@ -34963,7 +34963,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0849999999999995,"
 "    ""media_cartoes_amarelos_geral_total"": 2.7399999999999998"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 85,"
@@ -35018,7 +35018,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.6666666666666667"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 86,"
@@ -35073,7 +35073,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 87,"
@@ -35128,7 +35128,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0761538461538462,"
 "    ""media_cartoes_amarelos_geral_total"": 2.268076923076923"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 88,"
@@ -35183,7 +35183,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 89,"
@@ -35238,7 +35238,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.5,"
 "    ""media_cartoes_amarelos_geral_total"": 0.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 90,"
@@ -35293,7 +35293,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.4,"
 "    ""media_cartoes_amarelos_geral_total"": 1.9474999999999998"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 91,"
@@ -35348,7 +35348,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.542307692307692,"
 "    ""media_cartoes_amarelos_geral_total"": 2.652173913043478"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 92,"
@@ -35403,7 +35403,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.5,"
 "    ""media_cartoes_amarelos_geral_total"": 0.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 93,"
@@ -35458,7 +35458,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.6666666666666667"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 94,"
@@ -35513,7 +35513,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.3636363636363638,"
 "    ""media_cartoes_amarelos_geral_total"": 2.337142857142857"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 95,"
@@ -35568,7 +35568,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.5353846153846153,"
 "    ""media_cartoes_amarelos_geral_total"": 3.1123076923076924"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 96,"
@@ -35623,7 +35623,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 97,"
@@ -35678,7 +35678,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.404,"
 "    ""media_cartoes_amarelos_geral_total"": 2.235238095238095"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 98,"
@@ -35733,7 +35733,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.3636363636363638,"
 "    ""media_cartoes_amarelos_geral_total"": 2.390434782608696"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 99,"
@@ -35788,7 +35788,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.3333333333333333"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 100,"
@@ -35843,7 +35843,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3333333333333335"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 101,"
@@ -35898,7 +35898,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 102,"
@@ -35953,7 +35953,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 103,"
@@ -36008,7 +36008,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 6.0,"
 "    ""media_cartoes_amarelos_geral_total"": 6.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 104,"
@@ -36063,7 +36063,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 0.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 105,"
@@ -36118,7 +36118,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 0.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 106,"
@@ -36173,7 +36173,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 107,"
@@ -36228,7 +36228,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 108,"
@@ -36283,7 +36283,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 109,"
@@ -36338,7 +36338,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 110,"
@@ -36393,7 +36393,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 4.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 111,"
@@ -36448,7 +36448,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 112,"
@@ -36503,7 +36503,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 113,"
@@ -36558,7 +36558,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 114,"
@@ -36613,7 +36613,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 115,"
@@ -36668,7 +36668,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 116,"
@@ -36723,7 +36723,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 4.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 117,"
@@ -36778,7 +36778,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 118,"
@@ -36833,7 +36833,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 119,"
@@ -36888,7 +36888,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.5,"
 "    ""media_cartoes_amarelos_geral_total"": 0.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 120,"
@@ -36943,7 +36943,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 121,"
@@ -36998,7 +36998,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 122,"
@@ -37053,7 +37053,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6666666666666665"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 123,"
@@ -37108,7 +37108,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 124,"
@@ -37163,7 +37163,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 125,"
@@ -37218,7 +37218,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 126,"
@@ -37273,7 +37273,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 127,"
@@ -37328,7 +37328,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 128,"
@@ -37383,7 +37383,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 129,"
@@ -37438,7 +37438,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 130,"
@@ -37493,7 +37493,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 131,"
@@ -37548,7 +37548,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 132,"
@@ -37603,7 +37603,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.75"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 133,"
@@ -37658,7 +37658,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 134,"
@@ -37713,7 +37713,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.3333333333333333,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 135,"
@@ -37768,7 +37768,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 136,"
@@ -37823,7 +37823,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.25"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 137,"
@@ -37878,7 +37878,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 138,"
@@ -37933,7 +37933,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.3333333333333335,"
 "    ""media_cartoes_amarelos_geral_total"": 1.6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 139,"
@@ -37988,7 +37988,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.5,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 140,"
@@ -38043,7 +38043,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.3333333333333333,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 141,"
@@ -38098,7 +38098,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 142,"
@@ -38153,7 +38153,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.6666666666666667,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 143,"
@@ -38208,7 +38208,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.5,"
 "    ""media_cartoes_amarelos_geral_total"": 3.2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 144,"
@@ -38263,7 +38263,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.5"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 145,"
@@ -38318,7 +38318,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.5,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 146,"
@@ -38373,7 +38373,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.6666666666666665,"
 "    ""media_cartoes_amarelos_geral_total"": 3.4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 147,"
@@ -38428,7 +38428,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 148,"
@@ -38483,7 +38483,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 149,"
@@ -38538,7 +38538,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.4"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 150,"
@@ -38593,7 +38593,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.6666666666666667,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 151,"
@@ -38648,7 +38648,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.2"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 152,"
@@ -38703,7 +38703,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.333333333333333,"
 "    ""media_cartoes_amarelos_geral_total"": 3.8"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 153,"
@@ -38758,7 +38758,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 154,"
@@ -38813,7 +38813,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.3333333333333335,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 155,"
@@ -38868,7 +38868,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6666666666666665"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 156,"
@@ -38923,7 +38923,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3333333333333335"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 157,"
@@ -38978,7 +38978,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 158,"
@@ -39033,7 +39033,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 159,"
@@ -39088,7 +39088,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 5.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 160,"
@@ -39143,7 +39143,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 161,"
@@ -39198,7 +39198,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 5.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3333333333333335"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 162,"
@@ -39253,7 +39253,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.5,"
 "    ""media_cartoes_amarelos_geral_total"": 1.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 163,"
@@ -39308,7 +39308,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 0.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.3333333333333333"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 164,"
@@ -39363,7 +39363,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3333333333333335"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 165,"
@@ -39418,7 +39418,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.6666666666666665"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 166,"
@@ -39473,7 +39473,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 2.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 167,"
@@ -39528,7 +39528,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.0,"
 "    ""media_cartoes_amarelos_geral_total"": 3.3333333333333335"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 168,"
@@ -39583,7 +39583,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 169,"
@@ -39638,7 +39638,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 3.0,"
 "    ""media_cartoes_amarelos_geral_total"": 2.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 170,"
@@ -39693,7 +39693,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 4.5,"
 "    ""media_cartoes_amarelos_geral_total"": 4.0"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 171,"
@@ -39748,7 +39748,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.0,"
 "    ""media_cartoes_amarelos_geral_total"": 1.3333333333333333"
   }
-},
+}
 {
 "  ""model"": ""app_analise.analisetime"","
 "  ""pk"": 172,"
@@ -39803,7 +39803,7 @@
 "    ""media_cartoes_amarelos_fora_total"": 1.5,"
 "    ""media_cartoes_amarelos_geral_total"": 2.3333333333333335"
   }
-},
+}
 {
 "  ""model"": ""app_analise.banca"","
 "  ""pk"": 1,"
@@ -39812,7 +39812,7 @@
 "    ""valor_inicial"": ""10.00"","
 "    ""ativa"": true"
   }
-},
+}
 {
 "  ""model"": ""app_analise.banca"","
 "  ""pk"": 2,"
@@ -39821,7 +39821,7 @@
 "    ""valor_inicial"": ""10.00"","
 "    ""ativa"": true"
   }
-},
+}
 {
 "  ""model"": ""app_analise.banca"","
 "  ""pk"": 4,"
@@ -39830,7 +39830,7 @@
 "    ""valor_inicial"": ""10.00"","
 "    ""ativa"": true"
   }
-},
+}
 {
 "  ""model"": ""app_analise.banca"","
 "  ""pk"": 5,"
@@ -39839,7 +39839,7 @@
 "    ""valor_inicial"": ""1.00"","
 "    ""ativa"": true"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 33,"
@@ -39855,7 +39855,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 34,"
@@ -39871,7 +39871,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 39,"
@@ -39887,7 +39887,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 40,"
@@ -39903,7 +39903,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 41,"
@@ -39919,7 +39919,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 43,"
@@ -39935,7 +39935,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 44,"
@@ -39951,7 +39951,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 45,"
@@ -39967,7 +39967,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 46,"
@@ -39983,7 +39983,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 47,"
@@ -39999,7 +39999,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 48,"
@@ -40015,7 +40015,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 49,"
@@ -40031,7 +40031,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 50,"
@@ -40047,7 +40047,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 51,"
@@ -40063,7 +40063,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 52,"
@@ -40079,7 +40079,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 53,"
@@ -40095,7 +40095,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 54,"
@@ -40111,7 +40111,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 55,"
@@ -40127,7 +40127,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 56,"
@@ -40143,7 +40143,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 57,"
@@ -40159,7 +40159,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 58,"
@@ -40175,7 +40175,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 59,"
@@ -40191,7 +40191,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 60,"
@@ -40207,7 +40207,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 61,"
@@ -40223,7 +40223,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 62,"
@@ -40239,7 +40239,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 63,"
@@ -40255,7 +40255,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 64,"
@@ -40271,7 +40271,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 65,"
@@ -40287,7 +40287,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 66,"
@@ -40303,7 +40303,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 67,"
@@ -40319,7 +40319,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 68,"
@@ -40335,7 +40335,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 69,"
@@ -40351,7 +40351,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 70,"
@@ -40367,7 +40367,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 71,"
@@ -40383,7 +40383,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""app_analise.aposta"","
 "  ""pk"": 72,"
@@ -40399,7 +40399,7 @@
 "    ""is_multipla"": false,"
 "    ""detalhes_multipla"": null"
   }
-},
+}
 {
 "  ""model"": ""admin.logentry"","
 "  ""pk"": 1,"
@@ -40417,7 +40417,7 @@
 "    ""action_flag"": 3,"
 "    ""change_message"": """""
   }
-},
+}
 {
 "  ""model"": ""admin.logentry"","
 "  ""pk"": 2,"
@@ -40435,7 +40435,7 @@
 "    ""action_flag"": 3,"
 "    ""change_message"": """""
   }
-},
+}
 {
 "  ""model"": ""admin.logentry"","
 "  ""pk"": 3,"
@@ -40453,7 +40453,7 @@
 "    ""action_flag"": 1,"
 "    ""change_message"": ""[{\""added\"": {}}]"""
   }
-},
+}
 {
 "  ""model"": ""admin.logentry"","
 "  ""pk"": 4,"
@@ -40471,7 +40471,7 @@
 "    ""action_flag"": 2,"
 "    ""change_message"": ""[{\""changed\"": {\""fields\"": [\""First name\"", \""Last name\"", \""Email address\"", \""Staff status\"", \""Superuser status\""]}}]"""
   }
-},
+}
 {
 "  ""model"": ""admin.logentry"","
 "  ""pk"": 5,"
